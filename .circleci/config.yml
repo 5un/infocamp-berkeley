@@ -28,8 +28,12 @@ jobs:
 
       # - run: yarn install
       - run:
-          name: Node dependencies
+          name: Node global dependencies
           command: sudo npm install -g firebase-tools@3.9.1 gatsby --unsafe-perm
+          
+      - run:
+          name: Node dependencies
+          command: npm install
 
       - save_cache:
           paths:
