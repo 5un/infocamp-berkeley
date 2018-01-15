@@ -1,14 +1,14 @@
 [
   {
     "name": "Acme Company 1",
-    "image": "Image"
+    "image": "images/mock-company-1.png"
   },
   {
     "name": "Acme Company 2",
-    "image": "Image"
+    "image": "images/mock-company-2.png"
   },
   {
     "name": "Acme Company 3",
-    "image": "Image"
+    "image": "images/mock-company-3.png"
   }
 ]

@@ -6,37 +6,7 @@ import { slide as Menu } from 'react-burger-menu'
 import { Footer, Columns, Column, Content, Container  } from 'bloomer';
 import './index.scss'
 import Header from './header'
-
-
-const SideMenu = () => (
-  <Menu right>
-    <Link id="home" className="menu-item" to="/">Home</Link>
-    <Link id="about" className="menu-item" to="/about">About</Link>
-    <Link id="contact" className="menu-item" to="/tickets">Tickets</Link>
-    <Link className="menu-item--small" to="/faq">FAQ</Link>
-  </Menu>
-)
-
-const SiteFooter = () => (
-  <Footer id="footer">
-    <Container hasTextAlign="centered">
-      <Content>
-        <Columns>
-          <Column isFull>
-            <p>
-                Made with ❤️
-                by <a href="https://ischool.berkeley.edu">I-School</a>
-            </p>
-          </Column>
-        </Columns>
-        <Content isSize='small'>
-          <p>The source code is licensed under <a target="_blank">MIT</a>.</p>
-          <p>The website content is licensed under <a target="_blank">CC ANS 4.0</a>.</p>
-        </Content>
-      </Content>
-    </Container>
-  </Footer>
-)
+import SiteFooter from './footer'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -47,9 +17,6 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    {/*
-    <SideMenu />
-    */}
     <Header />
     <div>
       {children()}
