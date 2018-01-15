@@ -2,14 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { Footer, Columns, Column, Content, Container  } from 'bloomer';
 
-import './index.css'
+import './index.scss'
 
 const Header = () => (
   <div
     style={{
-      background: 'blue',
-      marginBottom: '1.45rem',
+      background: 'rgb(35,47,79)',
+      color: 'white',
     }}
   >
     <div
@@ -19,7 +20,7 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, fontSize: '18px' }}>
         <Link
           to="/"
           style={{
@@ -34,6 +35,27 @@ const Header = () => (
   </div>
 )
 
+const SiteFooter = () => (
+  <Footer id="footer">
+    <Container hasTextAlign="centered">
+      <Content>
+        <Columns>
+          <Column isFull>
+            <p>
+                Made with ❤️
+                by <a href="https://ischool.berkeley.edu">I-School</a>
+            </p>
+          </Column>
+        </Columns>
+        <Content isSize='small'>
+          <p>The source code is licensed under <a target="_blank">MIT</a>.</p>
+          <p>The website content is licensed under <a target="_blank">CC ANS 4.0</a>.</p>
+        </Content>
+      </Content>
+    </Container>
+  </Footer>
+)
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -44,16 +66,10 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div>
       {children()}
     </div>
+    <SiteFooter />
   </div>
 )
 
