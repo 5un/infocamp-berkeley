@@ -2,6 +2,7 @@ $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+@import "./menu.scss";
 
 html {
   font-family: 'Poppins', sans-serif;

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { slide as Menu } from 'react-burger-menu'
 import { Footer, Columns, Column, Content, Container  } from 'bloomer';
 
 import './index.scss'
@@ -35,6 +36,15 @@ const Header = () => (
   </div>
 )
 
+const SideMenu = () => (
+  <Menu right>
+    <Link id="home" className="menu-item" to="/">Home</Link>
+    <Link id="about" className="menu-item" to="/about">About</Link>
+    <Link id="contact" className="menu-item" to="/tickets">Tickets</Link>
+    <Link className="menu-item--small" to="/faq">FAQ</Link>
+  </Menu>
+)
+
 const SiteFooter = () => (
   <Footer id="footer">
     <Container hasTextAlign="centered">
@@ -65,6 +75,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <SideMenu />
     <Header />
     <div>
       {children()}
