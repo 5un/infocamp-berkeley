@@ -4,37 +4,9 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { slide as Menu } from 'react-burger-menu'
 import { Footer, Columns, Column, Content, Container  } from 'bloomer';
-
 import './index.scss'
+import Header from './header'
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rgb(35,47,79)',
-      color: 'white',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0, fontSize: '18px' }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          InfoCamp Berkeley 2018
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
 
 const SideMenu = () => (
   <Menu right>
@@ -75,7 +47,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    {/*
     <SideMenu />
+    */}
     <Header />
     <div>
       {children()}
