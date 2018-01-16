@@ -22,6 +22,14 @@ const IndexPage = () => (
     </div>
 
     <Section>
+      {/* Speakers goes here */}
+    </Section>
+
+    <Section>
+      {/* Agenda goes here */}
+    </Section>
+
+    <Section>
       <Container hasTextAlign="centered">
         <h2>Sponsors</h2>
         <SponsorList sponsors={sponsorsData}/>
