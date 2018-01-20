@@ -19,7 +19,7 @@ export default class Header extends React.Component {
   }
 
   render() {
-    return (<Navbar style={{ backgroundColor: 'white', margin: '0' }}>
+    return (<Navbar style={{ backgroundColor: 'transparent', margin: '0' }}>
       <NavbarBrand>
           <NavbarItem style={{ fontWeight: 'bold' }}>
             <img src="" style={{ marginRight: 5 }} /> InfoCamp Berkeley 2018

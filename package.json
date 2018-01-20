@@ -10,7 +10,9 @@
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
-    "react-burger-menu": "^2.2.3"
+    "lodash": "^4.17.4",
+    "react-burger-menu": "^2.2.3",
+    "react-load-script": "0.0.6"
   },
   "keywords": [
     "gatsby"

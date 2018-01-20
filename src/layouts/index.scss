@@ -1,7 +1,7 @@
 $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700|Rubik:300,500,700');
 @import "./menu.scss";
 
 html {
@@ -22,7 +22,8 @@ html {
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'Roboto Mono', monospace;
-  font-weight: normal;
+  font-weight: 300;
+  font-size: 12px;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -51,7 +52,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -66,6 +68,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -81,7 +84,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -96,7 +100,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: 500;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -111,7 +115,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: 500;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -126,7 +130,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: 500;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
