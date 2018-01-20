@@ -11,10 +11,10 @@ import SiteFooter from './footer'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="INFOCAMP Berkeley 2018"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
+        { name: 'keywords', content: 'InfoCamp, unconference, event, information science, datascience, design, society' },
       ]}
     />
     <Header />

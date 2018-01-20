@@ -17,13 +17,13 @@ const IndexPage = () => (
         backgroundColor: 'rgba(51,55,69,0.60)',
         color: 'white',
         height: '100vh',
-        padding: '200px 0'
+        padding: '20vh 20px'
       }}>
         <Container hasTextAlign="centered">
-          <img src="/images/infocamp-2018-logo.png" style={{ maxWidth: '90%', width: '600px' }} />
-          <h1 style={{ textShadow: '0px 2px 10px rgba(51,55,69,0.8)' }}>Augmenting Society</h1>
-          <h2 style={{ textShadow: '0px 2px 10px rgba(51,55,69,0.8)' }}>March 17th, 2018 at South Hall</h2>
-          <h3 style={{ textShadow: '0px 2px 10px rgba(51,55,69,0.8)' }}>More Information Coming Soon...</h3>
+          <img src="/images/infocamp-2018-logo.png" style={{ maxWidth: '100%', width: '600px' }} />
+          <h1 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.5)' }}>Augmenting Society</h1>
+          <h2 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>March 17th, 2018 at South Hall</h2>
+          <span style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>More Information Coming Soon...</span>
           {/*
           <Button isSize="large" isColor="info">Get Tickets</Button><br />
           <br />

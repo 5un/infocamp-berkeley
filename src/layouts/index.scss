@@ -1,7 +1,7 @@
 $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700|Rubik:300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700|Rubik:300,500,600');
 @import "./menu.scss";
 
 html {
@@ -53,7 +53,7 @@ h1 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Rubik', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
