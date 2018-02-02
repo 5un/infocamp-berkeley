@@ -8,7 +8,7 @@ const SponsorList = (props) => (
     {props.sponsors &&
       <Columns isCentered>
         {
-          props.sponsors.map((item) => (<Sponsor sponsor={item} />))
+          props.sponsors.map((item) => (<Sponsor sponsor={item} key={item.name}/>))
         }
       </Columns>
     }

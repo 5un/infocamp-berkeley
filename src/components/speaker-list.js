@@ -9,12 +9,12 @@ const SpeakerList = (props) => (
       <div>
         {
           props.speakers.map((group) => (
-            <div>
+            <div key={group.name}>
               <h3>{group.name}</h3>
               <Columns isCentered>
                 {
                   group.speakers.map((item) => (
-                    <Speaker speaker={item} />
+                    <Speaker speaker={item} key={item.name} />
                   ))
                 }
               </Columns>

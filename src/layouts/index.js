@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import { slide as Menu } from 'react-burger-menu'
+import { StickyContainer } from 'react-sticky';
 import { Footer, Columns, Column, Content, Container  } from 'bloomer';
 import './index.scss'
 import Header from './header'
@@ -17,11 +17,12 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'InfoCamp, unconference, event, information science, datascience, design, society' },
       ]}
     />
-    <Header />
-    <div>
-      {children()}
-    </div>
-    <SiteFooter />
+    <StickyContainer>
+      <div>
+        {children()}
+      </div>
+      <SiteFooter />
+    </StickyContainer>
   </div>
 )
 

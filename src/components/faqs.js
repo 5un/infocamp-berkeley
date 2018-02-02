@@ -9,7 +9,7 @@ const FAQs = (props) => (
     {props.data &&
       <div>
         {props.data.map(item => (
-          <div>
+          <div key={item.q}>
             <Collapsible trigger={<Title tag="h4" hasTextColor="light">{item.q}</Title>} open={true}>
               <p>{item.a}</p>
             </Collapsible>
