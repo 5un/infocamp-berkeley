@@ -1,10 +1,38 @@
 [
   {
-    "q": "Where to park?",
-    "a": "The parking space will be quite limited on campus on the day of the event."
+    "q": "What is InfoCamp?",
+    "a": "InfoCamp, in its 9th year, is the premier student-run conference for the information community. Held on the UC Berkeley campus at the School of Information, InfoCamp is a day-long event that aims to educate, inform, and inspire new ways of thinking among the information community. The event draws over 150 professionals, students, and entrepreneurs across a wide range of sectors who work in roles in data science, UX design, product management, software engineering and policy."
   },
   {
-    "q": "Can I bring pets?",
-    "a": "Sure, why not?"
+    "q": "What happens at InfoCamp?",
+    "a": "There are a number of activities planned throughout the day: keynote speakers, panels, an unconference, technical deep dive talks and a student project EXPO."
+  },
+  {
+    "q": "What’re the panel themes going to be at InfoCamp?",
+    "a": "More information coming soon! Stay tuned. "
+  },
+  {
+    "q": "What’s an “unconference”?",
+    "a": "Unlike normal conferences where attendees come and listen to a preset schedule of speakers, an unconference is where attendees can pitch and host their own sessions based on popular vote. The unconference portion will take place in the latter half of the day."
+  },
+  {
+    "q": "What’re the technical deep dive talks?",
+    "a": "More information coming soon! Stay tuned."
+  },
+  {
+    "q": "What’s the EXPO?",
+    "a": "More information coming soon! Stay tuned."
+  },
+  {
+    "q": "What is the “information community”?",
+    "a": "Great news!  The “information community” is by no means an exclusive club; in fact, chances are you’re a part of this community and don’t even know it!  Whether it’s something on a billboard, articles in a newspaper, or data stored in the cloud, Information is literally everywhere we go, so when we refer to the “information community,” we are refer to the community of individuals and industries whose careers, passions, or interests center around the use and improvement of information, information systems, and/or information technology. Welcome!"
+  },
+  {
+    "q": "How can I register for InfoCamp?",
+    "a": "InfoCamp is intimate by design to allow for authentic community-building. Tickets have sold out in recent years. Purchase yours here. TODO: Set up Eventbrite page"
+  },
+  {
+    "q": "Where will InfoCamp be held and how can I get there?",
+    "a": "InfoCamp will be held at UC Berkeley’s South Hall, just southwest of the Campanile near the center of campus. Find more information about getting there and parking here."
   }
 ]

@@ -31,7 +31,6 @@ export default class Header extends React.Component {
             <NavbarItem href='#/'>Tickets</NavbarItem>
             <NavbarItem href='#/'>Unconference</NavbarItem>
             <NavbarItem href='#/'>FAQ</NavbarItem>
-            {/*
             <NavbarItem hasDropdown isHoverable>
                 <NavbarLink href='#/documentation'>Documentation</NavbarLink>
                 <NavbarDropdown>
@@ -41,7 +40,6 @@ export default class Header extends React.Component {
                     <NavbarItem href='#/'>Two A</NavbarItem>
                 </NavbarDropdown>
             </NavbarItem>
-            */}
         </NavbarEnd>
       </NavbarMenu>
     </Navbar>)

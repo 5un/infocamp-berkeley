@@ -1,9 +1,18 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
+
 import sponsorsData from '../content/sponsors.json'
+import speakerData from '../content/speakers.json'
+import faqsData from '../content/faqs.json'
+import agendaData from '../content/agenda.json'
+
 import SponsorList from '../components/sponsor-list'
+import SpeakerList from '../components/speaker-list'
+import Agenda from '../components/agenda'
+import FAQS from '../components/faqs'
+
 import ThreejsBackdrop from '../components/three-js-backdrop'
-import { Container, Section, Columns, Column, Content, Button } from 'bloomer';
+import { Container, Section, Columns, Column, Image, Content, Button, Title } from 'bloomer';
 
 const IndexPage = () => (
   <div>
@@ -46,21 +55,87 @@ const IndexPage = () => (
       </Section>
     </div>
     
-    {/*
-    <Section>
-    </Section>
+    <Section style={{ backgroundColor: '#333744' }}>
+      <Container hasTextAlign="centered">
+        <Title tag="h2" hasTextColor="light">About Infocamp 2018</Title>
+        
+        <Content hasTextColor="light" hasTextAlign="left">
+          <p>As the distinction between the digital and physical realm becomes ever thinner, the reality of an augmented society emerges. We at the UC Berkeley School of Information are eager to dive deep into the intricacies of how the two affect each other, explore the extent to which they dominate each other and appreciate how they complement each other. 
+          </p>
 
-    <Section>
+          <p>Can the IOT connect more sensors than the number of people Facebook connects today? Will there be a time when chatbots will be penalised for breaking laws? Do we need to take special precautions when designing our boundary-pushing VR worlds? Bits and TeraBytes or Bits and Bitcoins? Will there ever be a scale to measure if emerging technology is constructive or destructive? Can artificial intelligence beat real brains? Is this dependency on machines a vicious cycle that would witness our future generations going back to primitive lives as we burst this bubble and find meaning in traditional ways.
+          </p>
+
+          <p>Here at the School of Information, we are constantly intrigued by these discussions. Through InfoCamp 2018, we aim to take a variety of approaches to find the answers to these ambiguities by engaging with industry experts, social enthusiasts and academic scholars. As data fanatics, we are also extremely keen to hear out our audience through an unconference - a series of impromptu idea sessions. Throughout the day we will have keynotes, panel discussions, technical deep dive talks, EXPOs and more.  We are thrilled to engage every student, every speaker and every expert attending InfoCamp 2018  in an intellectual rhythmic saga of bits and atoms, to this year’s theme of Augmenting Society.
+          </p>
+        </Content>
+
+      </Container>
     </Section>
 
     <Section>
       <Container hasTextAlign="centered">
-        <h2>Sponsors</h2>
-        <SponsorList sponsors={sponsorsData}/>
+         <Title tag="h2" hasTextColor="dark">Speakers</Title>
+        <p>Coming Soon.</p>
+        {/*
+        <SpeakerList speakers={speakerData}/>
+        */}
       </Container>
     </Section>
-    */}
+
+    <Section style={{ backgroundColor: '#ED5E61' }}>
+      <Container hasTextAlign="centered">
+        <Title tag="h2" hasTextColor="light">Schedule</Title>
+        <Content hasTextColor="light">
+          <Agenda data={agendaData} />
+        </Content>
+      </Container>
+    </Section>
+
+    <Section style={{ backgroundColor: '#EFAD3B' }}>
+      <Container hasTextAlign="centered">
+        <Title tag="h2" hasTextColor="light">Register</Title>
+        <Columns>
+          <Column isSize="1/3" hasTextAlign="center">
+            <img src="/images/icon-unconference.png" />
+            <div>
+              Unconference
+            </div>
+          </Column>
+          <Column isSize="1/3" hasTextAlign="center">
+            <img src="/images/icon-tickets.png" />
+            <div>
+              Tickets
+            </div>
+          </Column>
+          <Column isSize="1/3" hasTextAlign="center">
+            <img src="/images/icon-expo.png"/>
+            <div>
+              Expo
+            </div>
+          </Column>
+        </Columns>
+      </Container>
+    </Section>
+
+    <Section>
+      <Container hasTextAlign="centered">
+        <Title tag="h2" hasTextColor="dark">Sponsors</Title>
+        <p>Coming Soon.</p>
+        {/*
+        <SponsorList sponsors={sponsorsData}/>
+        */}
+      </Container>
+    </Section>
     
+    <Section style={{ backgroundColor: '#333744' }}>
+      <Container hasTextAlign="centered">
+        <Title tag="h2" hasTextColor="light">FAQS</Title>
+        <Content hasTextColor="light" hasTextAlign="left">
+          <FAQS data={faqsData}/>
+        </Content>
+      </Container>
+    </Section>
       
   </div>
 )

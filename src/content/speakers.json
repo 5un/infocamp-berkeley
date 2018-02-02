@@ -4,12 +4,12 @@
     "speakers": [
       {
         "name": "Miyah Myles",
-        "photo": "https:\/\/images.unsplash.com\/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
+        "image": "https:\/\/images.unsplash.com\/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
         "bio": "CEO of Acme Company"
       },
       {
           "name": "Lorenz Vercauteren-Seghers",
-          "photo": "https:\/\/tinyfac.es\/data\/avatars\/5F8C5D50-DDB6-4F06-AA15-ACB30D8D910D-200w.jpeg",
+          "image": "https:\/\/tinyfac.es\/data\/avatars\/5F8C5D50-DDB6-4F06-AA15-ACB30D8D910D-200w.jpeg",
           "bio": "VP Analytics, Acme Company"
       }
     ]
@@ -19,32 +19,32 @@
     "speakers": [
       {
         "name": "\u0628\u0647\u0627\u0631 \u062d\u0633\u06cc\u0646\u06cc",
-        "photo": "https:\/\/randomuser.me\/api\/portraits\/women\/44.jpg",
+        "image": "https:\/\/randomuser.me\/api\/portraits\/women\/44.jpg",
         "bio": "CTO of Acme Company"
       },
       {
           "name": "leo gill",
-          "photo": "https:\/\/randomuser.me\/api\/portraits\/men\/32.jpg",
+          "image": "https:\/\/randomuser.me\/api\/portraits\/men\/32.jpg",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "noah pierre",
-          "photo": "https:\/\/randomuser.me\/api\/portraits\/men\/35.jpg",
+          "image": "https:\/\/randomuser.me\/api\/portraits\/men\/35.jpg",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "Dallas Kwok",
-          "photo": "https:\/\/tinyfac.es\/data\/avatars\/7E570445-25F0-4276-8E8F-084ABA2C8FB8-200w.jpeg",
+          "image": "https:\/\/tinyfac.es\/data\/avatars\/7E570445-25F0-4276-8E8F-084ABA2C8FB8-200w.jpeg",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "renee sims",
-          "photo": "https:\/\/randomuser.me\/api\/portraits\/women\/65.jpg",
+          "image": "https:\/\/randomuser.me\/api\/portraits\/women\/65.jpg",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "iida niskanen",
-          "photo": "https:\/\/randomuser.me\/api\/portraits\/women\/68.jpg",
+          "image": "https:\/\/randomuser.me\/api\/portraits\/women\/68.jpg",
           "bio": "Data Scientist, Acme Company"
       }
     ]
@@ -54,24 +54,24 @@
     "speakers": [
       {
         "name": "veeti seppanen",
-        "photo": "https:\/\/randomuser.me\/api\/portraits\/men\/97.jpg",
+        "image": "https:\/\/randomuser.me\/api\/portraits\/men\/97.jpg",
         "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "jonathan nu\u00f1ez",
-          "photo": "https:\/\/randomuser.me\/api\/portraits\/men\/43.jpg",
+          "image": "https:\/\/randomuser.me\/api\/portraits\/men\/43.jpg",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "Sasha Ho",
-          "photo": "https:\/\/images.pexels.com\/photos\/415829\/pexels-photo-415829.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb",
+          "image": "https:\/\/images.pexels.com\/photos\/415829\/pexels-photo-415829.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb",
           "bio": "Data Scientist, Acme Company"
       },
       {
           "name": "Novalee Spicer",
-          "photo": "https:\/\/d3iw72m71ie81c.cloudfront.net\/8912fe22-7970-4e15-a3a1-abef9f2fb4b5",
+          "image": "https:\/\/d3iw72m71ie81c.cloudfront.net\/8912fe22-7970-4e15-a3a1-abef9f2fb4b5",
           "bio": "Data Scientist, Acme Company"
-      },
+      }
     ]
   }
 ]

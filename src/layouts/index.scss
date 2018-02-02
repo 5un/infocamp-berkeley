@@ -2,7 +2,6 @@ $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700|Rubik:300,500,600');
-@import "./menu.scss";
 
 html {
   font-family: 'Poppins', sans-serif;
@@ -57,6 +56,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 h2 {
   margin-left: 0;
@@ -72,7 +72,9 @@ h2 {
   font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
+  text-transform: uppercase;
   line-height: 1.1;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 h3 {
   margin-left: 0;
@@ -89,6 +91,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 h4 {
   margin-left: 0;

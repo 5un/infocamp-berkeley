@@ -12,6 +12,7 @@
     "gatsby-plugin-sass": "^1.0.15",
     "lodash": "^4.17.4",
     "react-burger-menu": "^2.2.3",
+    "react-collapsible": "^2.0.4",
     "react-load-script": "0.0.6"
   },
   "keywords": [

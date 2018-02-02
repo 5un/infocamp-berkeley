@@ -1,42 +1,67 @@
 [
   {
-    "time": "09:00am - 10:00am",
-    "label": "Registration"
+    "start": "10:00 AM",
+    "end": "11:00 AM",
+    "items": [ "Breakfast" ]
   },
   {
-    "time": "10:00am - 11:00am",
-    "label": "Keynote Speech"
+    "start": "10:00 AM",
+    "end": "10:15 AM",
+    "items": [ "Opening Remarks" ]
   },
   {
-    "time": "11:00am - 12:00pm",
-    "label": "Panel 1: Developing an unconference site in the age of machine uprising"
+    "start": "10:15 AM",
+    "end": "11:00 AM",
+    "items": [ "Opening Keynote" ]
   },
   {
-    "time": "12:00pm - 1:00pm",
-    "label": "Lunch"
+    "start": "11:00 AM",
+    "end": "11:50 AM",
+    "items": [ "Panel 1", "Panel 2" ]
   },
   {
-    "time": "1:00pm - 2:00pm",
-    "label": "Unconference Track 1, Session 1",
-    "room": "South Hall 202"
+    "start": "11:50 AM",
+    "end": "12:00 PM",
+    "items": [ "Short Break" ]
   },
   {
-    "time": "1:00pm - 2:00pm",
-    "label": "Unconference Track 2, Session 1",
-    "room": "South Hall 202"
+    "start": "12:00 PM",
+    "end": "12:20 PM ",
+    "items": [ "Unconference Pitches" ]
   },
   {
-    "time": "1:00pm - 2:00pm",
-    "label": "Unconference Track 1, Session 2",
-    "room": "South Hall 202"
+    "start": "12:20 PM",
+    "end": "1:20 PM",
+    "items": [ "Lunch Break" ]
   },
   {
-    "time": "1:00pm - 2:00pm",
-    "label": "Unconference Track 2, Session 2",
-    "room": "South Hall 210"
+    "start": "1:20 PM",
+    "end": "1:50 PM",
+    "items": [ "Unconference Sessions" ]
   },
   {
-    "time": "3:00pm - 4:00pm",
-    "label": "Happy Hours"
+    "start": "1:50 PM",
+    "end": "2:50 PM",
+    "items": [ "Deep Dive Sessions (4 Sessions)" ]
+  },
+  {
+    "start": "2:50 PM",
+    "end": "3:00 PM",
+    "items": [ "Short Break" ]
+  },
+  {
+    "start": "3:00 PM",
+    "end": "4:00 PM",
+    "items": [ "Academic Talk (2 Faculty Talks)" ]
+  },
+  {
+    "start": "4:00 PM",
+    "end": "4:30 PM",
+    "items": [ "End Keynote" ]
+  },
+  {
+    "start": "4:30 PM",
+    "end": "5:30 PM",
+    "items": [ "EXPO + Happy Hour" ]
   }
 ]

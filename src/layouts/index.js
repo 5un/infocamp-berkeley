@@ -21,9 +21,7 @@ const TemplateWrapper = ({ children }) => (
     <div>
       {children()}
     </div>
-    {/*
     <SiteFooter />
-    */}
   </div>
 )
 
