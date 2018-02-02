@@ -17,7 +17,7 @@
   {
     "start": "11:00 AM",
     "end": "11:50 AM",
-    "items": [ "Panel 1", "Panel 2" ]
+    "items": [ "Panels (2 concurrent)" ]
   },
   {
     "start": "11:50 AM",
@@ -42,7 +42,7 @@
   {
     "start": "1:50 PM",
     "end": "2:50 PM",
-    "items": [ "Deep Dive Sessions (4 Sessions)" ]
+    "items": [ "Deep Dive Sessions (4 30min sessions)" ]
   },
   {
     "start": "2:50 PM",
