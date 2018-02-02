@@ -14,7 +14,12 @@ const TemplateWrapper = ({ children }) => (
       title="INFOCAMP Berkeley 2018"
       meta={[
         { name: 'description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
-        { name: 'keywords', content: 'InfoCamp, unconference, event, information science, datascience, design, society' },
+        { name: 'keywords', content: 'InfoCamp, uconference, event, information science, datascience, design, society' },
+        { name: 'og:url', content: 'https://berkeley-infocamp.org' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:title', content: 'INFOCAMP Berkeley 2018' },
+        { name: 'og:description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
+        { name: 'og:image', content: 'https://berkeley-infocamp.org/images/fbog-infocamp-2018.png' },
       ]}
     />
     <StickyContainer>
