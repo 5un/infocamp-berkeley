@@ -9,8 +9,12 @@ const FAQs = (props) => (
     {props.data &&
       <div>
         {props.data.map(item => (
-          <div key={item.q}>
-            <Collapsible trigger={<Title tag="h4" hasTextColor="light">{item.q}</Title>} open={true}>
+          <div key={item.q} style={{ marginBottom: '20px' }}>
+            <Collapsible trigger={
+              <Title tag="h4" isSize={6} hasTextColor="light">
+                {item.q}
+              </Title>
+            } open={true}>
               <p>{item.a}</p>
             </Collapsible>
           </div>

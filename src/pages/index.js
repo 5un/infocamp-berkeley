@@ -63,19 +63,22 @@ class IndexPage extends React.Component {
       <a name="about" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#333744' }}>
         <Container hasTextAlign="centered">
-          <Title tag="h2" hasTextColor="light">About Infocamp 2018</Title>
-          
-          <Content hasTextColor="light" hasTextAlign="left">
-            <p>As the distinction between the digital and physical realm becomes ever thinner, the reality of an augmented society emerges. We at the UC Berkeley School of Information are eager to dive deep into the intricacies of how the two affect each other, explore the extent to which they dominate each other and appreciate how they complement each other. 
-            </p>
+          <Columns>
+            <Column isSize={8} isOffset={2}>
+              <Title tag="h2" hasTextColor="light">About Infocamp 2018</Title>
+              
+              <Content hasTextColor="light" hasTextAlign="left">
+                <p>As the distinction between the digital and physical realm becomes ever thinner, the reality of an augmented society emerges. We at the UC Berkeley School of Information are eager to dive deep into the intricacies of how the two affect each other, explore the extent to which they dominate each other and appreciate how they complement each other. 
+                </p>
 
-            <p>Can the IOT connect more sensors than the number of people Facebook connects today? Will there be a time when chatbots will be penalised for breaking laws? Do we need to take special precautions when designing our boundary-pushing VR worlds? Bits and TeraBytes or Bits and Bitcoins? Will there ever be a scale to measure if emerging technology is constructive or destructive? Can artificial intelligence beat real brains? Is this dependency on machines a vicious cycle that would witness our future generations going back to primitive lives as we burst this bubble and find meaning in traditional ways.
-            </p>
+                <p>Can the IOT connect more sensors than the number of people Facebook connects today? Will there be a time when chatbots will be penalised for breaking laws? Do we need to take special precautions when designing our boundary-pushing VR worlds? Bits and TeraBytes or Bits and Bitcoins? Will there ever be a scale to measure if emerging technology is constructive or destructive? Can artificial intelligence beat real brains? Is this dependency on machines a vicious cycle that would witness our future generations going back to primitive lives as we burst this bubble and find meaning in traditional ways.
+                </p>
 
-            <p>Here at the School of Information, we are constantly intrigued by these discussions. Through InfoCamp 2018, we aim to take a variety of approaches to find the answers to these ambiguities by engaging with industry experts, social enthusiasts and academic scholars. As data fanatics, we are also extremely keen to hear out our audience through an unconference - a series of impromptu idea sessions. Throughout the day we will have keynotes, panel discussions, technical deep dive talks, EXPOs and more.  We are thrilled to engage every student, every speaker and every expert attending InfoCamp 2018  in an intellectual rhythmic saga of bits and atoms, to this year’s theme of Augmenting Society.
-            </p>
-          </Content>
-
+                <p>Here at the School of Information, we are constantly intrigued by these discussions. Through InfoCamp 2018, we aim to take a variety of approaches to find the answers to these ambiguities by engaging with industry experts, social enthusiasts and academic scholars. As data fanatics, we are also extremely keen to hear out our audience through an unconference - a series of impromptu idea sessions. Throughout the day we will have keynotes, panel discussions, technical deep dive talks, EXPOs and more.  We are thrilled to engage every student, every speaker and every expert attending InfoCamp 2018  in an intellectual rhythmic saga of bits and atoms, to this year’s theme of Augmenting Society.
+                </p>
+              </Content>
+            </Column>
+          </Columns>
         </Container>
       </Section>
     
@@ -144,11 +147,13 @@ class IndexPage extends React.Component {
       
       <a name="faqs" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#333744' }}>
-        <Container hasTextAlign="centered">
-          <Title tag="h2" hasTextColor="light">FAQS</Title>
-          <Content hasTextColor="light" hasTextAlign="left">
-            <FAQS data={faqsData}/>
-          </Content>
+        <Container hasTextColor="light" hasTextAlign="left">
+          <Columns>
+            <Column isSize={8} isOffset={2}>
+              <Title tag="h2" hasTextColor="light" hasTextAlign="centered" >FAQS</Title>
+              <FAQS data={faqsData}/>
+            </Column>
+          </Columns>
         </Container>
       </Section>
         
