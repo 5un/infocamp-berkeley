@@ -1,11 +1,13 @@
 import React from 'react'
 import Script from 'react-load-script'
+import queue from 'queue'
 import _ from 'lodash'
 
 const threejsScript = '/js/three.min.js'
 // const threejsScript = '/js/three.js'
 
 const scriptList = [
+  '/js/three.min.js',
   '/js/loaders/BinaryLoader.js',
   '/js/shaders/ConvolutionShader.js',
   '/js/shaders/CopyShader.js',
@@ -332,6 +334,28 @@ class ThreejsBackdrop extends React.Component {
 
   componentDidMount(){
     this.threeContainer.style.height = window.innerHeight + "px";
+    const q = queue()
+    q.autostart = false
+    q.concurrency = 1
+
+    scriptList.forEach((scr, i) => {
+      q.push((cb) => {
+        const aScript = document.createElement('script');
+        aScript.onload = (e) => { cb() }
+        aScript.type = 'text/javascript';
+        aScript.src = scr;
+        document.head.appendChild(aScript);
+      })
+    })
+
+    q.start((err) => {
+      if (err) throw err
+      this.setState({ threejsScriptLoaded: true })
+      this.init();
+      this.lastRenderTime = Date.now();
+      this.animate();
+    })
+
   }
 
   render () {
@@ -339,10 +363,6 @@ class ThreejsBackdrop extends React.Component {
     return (
       <div>
         <div ref={(el) => this.threeContainer = el} className="threejs-container"></div>
-        <Script url={threejsScript} onLoad={this.handleThreejsScriptLoad.bind(this)}/>
-        {threejsScriptLoaded && _.map(scriptList, scr => (
-          <Script url={scr} onLoad={this.handleScriptLoad.bind(this)} key={scr}/>
-        ))}
       </div>
     )
   }
