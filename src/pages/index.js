@@ -124,11 +124,12 @@ class IndexPage extends React.Component {
               </a>
             </Column>
             <Column isSize="1/3" hasTextAlign="center">
-              <img src="/images/icon-expo.png" width="150"/>
-              <Title tag="h4" isSize={6} hasTextColor="light">
-                Expo<br />
-                (To be announced)
-              </Title>
+              <a href="/expo">
+                <img src="/images/icon-expo.png" width="150"/>
+                <Title tag="h4" isSize={6} hasTextColor="light">
+                  Expo
+                </Title>
+              </a>
             </Column>
           </Columns>
         </Container>

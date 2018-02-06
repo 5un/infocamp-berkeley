@@ -43,7 +43,9 @@ export default class StickyHeader extends React.Component {
               <header style={headerStyle}>
                 <div style={{ background: barBackground, transition: 'background 0.5s' }}>
                   <Container hasTextAlign="centered">
-                    <img src="/images/infocamp-2018-logo.png" style={{ height: logoHeight + 'px', transition: 'height 0.5s', marginBottom: '0', maxHeight: '20vw' }} /><br />
+                    <a href="/">
+                      <img src="/images/infocamp-2018-logo.png" style={{ height: logoHeight + 'px', transition: 'height 0.5s', marginBottom: '0', maxHeight: '20vw' }} /><br />
+                    </a>
                     <div>
                       <div style={{ display: 'inline-block', width: '25%' }}>
                         <a href="#about">
