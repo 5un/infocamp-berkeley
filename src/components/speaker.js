@@ -5,10 +5,11 @@ import { Column, Image } from 'bloomer'
 const Speaker = (props) => (
   <Column isSize="1/3" hasTextAlign="center">
     <div>
-      <Image isSize="96x96" src={props.speaker.image} style={{ borderRadius: '48px', clip: 'auto' }}/>
+      <img src={props.speaker.image} style={{ borderRadius: '96px', clip: 'auto', width: '192px', height: '192px' }}/>
     </div>
     <div>
-      {props.speaker.name}
+      <strong>{props.speaker.name}</strong><br />
+      {props.speaker.bio}
     </div>
   </Column>
 )
