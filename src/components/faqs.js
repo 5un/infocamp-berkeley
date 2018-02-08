@@ -15,7 +15,7 @@ const FAQs = (props) => (
                 {item.q}
               </Title>
             } open={true}>
-              <p>{item.a}</p>
+              <p dangerouslySetInnerHTML={{__html: item.a}}></p>
             </Collapsible>
           </div>
         ))}

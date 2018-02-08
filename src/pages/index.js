@@ -118,7 +118,8 @@ class IndexPage extends React.Component {
               </Title>
             </Column>
             <Column isSize="1/3" hasTextAlign="center">
-              <a href="https://www.eventbrite.com/e/infocamp-2018-tickets-42729120951?utm_source=eb_email&utm_medium=email&utm_campaign=new_event_email&utm_term=viewmyevent_button">
+              <a style={{ textDecoration: 'none' }}
+                href="https://www.eventbrite.com/e/infocamp-2018-tickets-42729120951?utm_source=eb_email&utm_medium=email&utm_campaign=new_event_email&utm_term=viewmyevent_button">
                 <img src="/images/icon-tickets.png" width="150"/>
                 <Title tag="h4" isSize={6} hasTextColor="light">
                   Tickets
@@ -126,7 +127,7 @@ class IndexPage extends React.Component {
               </a>
             </Column>
             <Column isSize="1/3" hasTextAlign="center">
-              <a href="/expo">
+              <a href="/expo" style={{ textDecoration: 'none' }}>
                 <img src="/images/icon-expo.png" width="150"/>
                 <Title tag="h4" isSize={6} hasTextColor="light">
                   Expo
