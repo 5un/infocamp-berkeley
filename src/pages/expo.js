@@ -71,15 +71,19 @@ class IndexPage extends React.Component {
               <a name="submit" style={linkedAnchorStyle}></a>
               <Title tag="h2" hasTextColor="light">Submission Guidelines</Title>
               <Content hasTextColor="light" hasTextAlign="left">
-              We welcome written proposals(~200 words), digital images, or web links that explain or demonstrate your project concept. It should cover:
-                Project overview
-                Affiliations
-                Contributors
-                At what stage is the project e.g. concept stage or test or live stage.
+              We welcome written proposals(~200 words), digital images, or web links that explain or demonstrate your project concept. It should cover:<br />
+                {/*
+                <ul>
+                  <li>Project overview</li>
+                  <li>Affiliations</li>
+                  <li>Contributors</li>
+                  <li>At what stage is the project e.g. concept stage or test or live stage.</li>
+                </ul>
+                */}
               </Content>
 
               <Content hasTextColor="light" hasTextAlign="left">
-              Please email your proposal or send questions to: evelyn_mwangi@berkeley.edu.
+              Please submit your proposal through this <a href="https://goo.gl/forms/Wl32H3hd8O5mz6Tc2">form</a>.
               </Content>
 
               <Title tag="h2" hasTextColor="light">Important Dates</Title>
