@@ -96,16 +96,14 @@ class IndexPage extends React.Component {
         <Container hasTextAlign="centered">
             <Columns>
               <Column isSize={8} isOffset={2}>
-                <Title tag="h2" hasTextColor="dark">Speakers</Title>
-                {/*
+                <Title tag="h2" hasTextColor="dark">Speakers and Panelists</Title>
                 <SpeakerList speakers={speakerData}/>
+                {/*
+                  <span>To be announced...</span>
                 */}
-                <span>To be announced...</span>
               </Column>
             </Columns>
-            {/*
             <span>And more to be announced...</span>
-            */}
         </Container>
       </Section>
 
@@ -157,10 +155,12 @@ class IndexPage extends React.Component {
       <Section>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="dark">Sponsors</Title>
-          <p>Coming Soon.</p>
-          {/*
-          <SponsorList sponsors={sponsorsData}/>
-          */}
+          <p>To be announced.</p>
+          {
+            /*
+            <SponsorList sponsors={sponsorsData}/>
+            */
+          }
         </Container>
       </Section>
       

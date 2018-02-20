@@ -13,7 +13,6 @@ import Agenda from '../components/agenda'
 import FAQS from '../components/faqs'
 
 import StickyHeader from '../layouts/sticky-header'
-import ThreejsBackdrop from '../components/three-js-backdrop'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
 
 const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
@@ -22,18 +21,13 @@ class IndexPage extends React.Component {
   render() {
     return (<div>
       <div style={{ position: 'relative' }}>
-        <ThreejsBackdrop style={{ position: 'absolute', left: 0, top: 0 }}/>
         <Section style={{ 
-          position: 'absolute',
-          left: 0,
-          top: 0,
-          right: 0,
-          backgroundColor: 'rgba(51,55,69,0.60)',
+          backgroundColor: 'rgba(51,55,69,1)',
           color: 'white',
-          height: '100vh'
+          minHeight: '100vh'
         }} isPaddingless={true} >
           <StickyHeader />
-          <Container hasTextAlign="centered" style={{ marginTop: '100px' }}>
+          <Container hasTextAlign="centered" style={{ padding: '50px 20px' }}>
             <Columns>
               <Column isSize={8} isOffset={2}>
                 <img src="/images/icon-expo.png" width="150"/>
@@ -42,7 +36,9 @@ class IndexPage extends React.Component {
                   We welcome you to submit projects for the EXPO showcase at this year’s InfoCamp! 
                   We invite student-led projects that are based on our theme of Augmented Society.  Examples of project areas are Virtual Reality, Augmented Reality, Internet of Things, Blockchain and cryptocurrencies, Biosensing, Bot technology, Machine Learning and more.
                 </Content>
-                <a href="#submit"><Button isColor="warning" type="submit" value="submit" style={{ width: '300px' }}>Submit Project</Button></a>
+                <a href="#submit" style={{ textDecoration: 'none' }}>
+                  <Button isColor="warning" type="submit" value="submit" style={{ width: '300px' }}>Submit Project</Button>
+                </a>
               </Column>
             </Columns>
           </Container>

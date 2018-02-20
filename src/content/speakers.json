@@ -5,12 +5,22 @@
       {
         "name": "Anastasia Miron",
         "image": "/images/speakers-miron.jpg",
-        "bio": "Founder, Child Proof Yourself"
+        "title": "Social Speaker on Blockchain, Founder at Child Proof Yourself"
       },
       {
-        "name": "Bill Barhydt",
-        "image": "/images/speakers-barhydt.jpg",
-        "bio": "Founder, Abra"
+        "name": "Dawn Song",
+        "image": "/images/speakers-song.jpg",
+        "title": "Professor, Department of EECS at UC Berkeley"
+      },
+      {
+        "name": "Morgan Ames",
+        "image": "/images/speakers-ames.jpg",
+        "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information"
+      },
+      {
+        "name": "Rich Ridlen",
+        "image": "/images/speakers-ridlen.jpg",
+        "title": "Lead User Researcher, YouTube VR"
       }
     ]
   }

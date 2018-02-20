@@ -9,7 +9,7 @@ const Speaker = (props) => (
     </div>
     <div>
       <strong>{props.speaker.name}</strong><br />
-      {props.speaker.bio}
+      <small>{props.speaker.title}</small>
     </div>
   </Column>
 )
