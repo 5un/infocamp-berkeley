@@ -1,17 +1,6 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
-import ScrollableAnchor from 'react-scrollable-anchor'
-
-import sponsorsData from '../content/sponsors.json'
-import speakerData from '../content/speakers.json'
-import faqsData from '../content/faqs.json'
-import agendaData from '../content/agenda.json'
-
-import SponsorList from '../components/sponsor-list'
-import SpeakerList from '../components/speaker-list'
-import Agenda from '../components/agenda'
-import FAQS from '../components/faqs'
-
+import links from '../content/links.json'
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
 
@@ -36,7 +25,7 @@ class IndexPage extends React.Component {
                   We welcome you to submit projects for the EXPO showcase at this year’s InfoCamp! 
                   We invite student-led projects that are based on our theme of Augmented Society.  Examples of project areas are Virtual Reality, Augmented Reality, Internet of Things, Blockchain and cryptocurrencies, Biosensing, Bot technology, Machine Learning and more.
                 </Content>
-                <a href="#submit" style={{ textDecoration: 'none' }}>
+                <a href={links.expo} style={{ textDecoration: 'none' }}>
                   <Button isColor="warning" type="submit" value="submit" style={{ width: '300px' }}>Submit Project</Button>
                 </a>
               </Column>
@@ -93,7 +82,7 @@ class IndexPage extends React.Component {
               </Content>
 
               <Content hasTextColor="light" hasTextAlign="left">
-              Please submit your proposal through this <a href="https://goo.gl/forms/Wl32H3hd8O5mz6Tc2">form</a>.
+              Please submit your proposal through this <a href={links.expo}>form</a>.
               </Content>
 
               <Title tag="h2" hasTextColor="light">Important Dates</Title>

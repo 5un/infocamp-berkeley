@@ -1,6 +1,5 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
-import ScrollableAnchor from 'react-scrollable-anchor'
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
 

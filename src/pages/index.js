@@ -1,6 +1,5 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 import sponsorsData from '../content/sponsors.json'
 import speakerData from '../content/speakers.json'
