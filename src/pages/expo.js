@@ -11,7 +11,9 @@ class IndexPage extends React.Component {
     return (<div>
       <div style={{ position: 'relative' }}>
         <Section style={{ 
-          backgroundColor: 'rgba(51,55,69,1)',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundImage: 'url("/images/bg-pattern-01.jpg")',
           color: 'white',
           minHeight: '100vh'
         }} isPaddingless={true} >
