@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import { Sticky } from 'react-sticky';
-import { Container, Columns, Column, Title } from 'bloomer';
+import { Sticky } from 'react-sticky'
+import { Container, Columns, Column, Title } from 'bloomer'
+import { Breakpoint } from 'react-responsive-grid'
+import DropdownMenu from '../components/dropdown-menu'
 
 export default class StickyHeader extends React.Component {
   
@@ -11,10 +13,6 @@ export default class StickyHeader extends React.Component {
     this.state = {
       isActive: false
     }
-  }
-
-  onClickNav() {
-    this.setState({ isActive: !this.state.isActive })
   }
 
   render() {
@@ -31,7 +29,7 @@ export default class StickyHeader extends React.Component {
             calculatedHeight
           }) => {
             const logoHeight = distanceFromTop < -100 ? 100 : 150
-            const headerStyle = {...style, zIndex:'1000000' }
+            const headerStyle = {...style, zIndex:'10' }
             const barBackground = distanceFromTop < -100 ? '#333744' : 'linear-gradient(to bottom, #333744 0%, rgba(51,55,68,0) 100%)'
             const navMenuStyle = {
               textTransform: 'uppercase',
@@ -39,6 +37,13 @@ export default class StickyHeader extends React.Component {
               color: 'white',
               textDecoration: 'underline'
             }
+
+            const aboutSubMenus = [
+              { title: 'About InfoCamp', linkTo: '/#about' },
+              { title: 'Sponsors', linkTo: '/#sponsors' },
+              { title: 'FAQ', linkTo: '/#faqs' }
+            ]
+
             return (
               <header style={headerStyle}>
                 <div style={{ background: barBackground, transition: 'background 0.5s' }}>
@@ -46,29 +51,39 @@ export default class StickyHeader extends React.Component {
                     <a href="/">
                       <img src="/images/infocamp-2018-logo.png" style={{ height: logoHeight + 'px', transition: 'height 0.5s', marginBottom: '0', maxHeight: '20vw' }} /><br />
                     </a>
-                    <div>
-                      <div style={{ display: 'inline-block', width: '25%' }}>
-                        <a href="#about">
-                          <Title tag="h5" isSize={6} style={navMenuStyle}>About</Title>
-                        </a>
+                    <Breakpoint minWidth={720} widthMethod="componentWidth">
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <DropdownMenu title="About" children={aboutSubMenus}>
+                        </DropdownMenu>
                       </div>
-                      <div style={{ display: 'inline-block', width: '25%' }}>
-                        <a href="#schedule">
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <a href="/#schedule">
                           <Title tag="h5" isSize={6} style={navMenuStyle}>Schedule</Title>
                         </a>
                       </div>
-                      <div style={{ display: 'inline-block', width: '25%' }}>
-                        <a href="#register">
-                          <Title tag="h5" isSize={6} style={navMenuStyle}>Register</Title>
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <a href="/#speakers">
+                          <Title tag="h5" isSize={6} style={navMenuStyle}>Speakers</Title>
                         </a>
                       </div>
-                      <div style={{ display: 'inline-block', width: '25%' }}>
-                        <a href="#faqs">
-                          <Title tag="h5" isSize={6} style={navMenuStyle}>FAQS</Title>
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <a href="/#register">
+                          <Title tag="h5" isSize={6} style={navMenuStyle}>Tickets</Title>
                         </a>
                       </div>
-                    </div>
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <a href="/expo">
+                          <Title tag="h5" isSize={6} style={navMenuStyle}>Expo</Title>
+                        </a>
+                      </div>
+                      <div style={{ display: 'inline-block', width: '16%' }}>
+                        <a href="/unconference">
+                          <Title tag="h5" isSize={6} style={navMenuStyle}>Unconference</Title>
+                        </a>
+                      </div>
+                    </Breakpoint>
                   </Container>
+                  
                 </div>
               </header>
             )

@@ -6,6 +6,7 @@ import sponsorsData from '../content/sponsors.json'
 import speakerData from '../content/speakers.json'
 import faqsData from '../content/faqs.json'
 import agendaData from '../content/agenda.json'
+import links from '../content/links.json'
 
 import SponsorList from '../components/sponsor-list'
 import SpeakerList from '../components/speaker-list'
@@ -28,16 +29,24 @@ class IndexPage extends React.Component {
           left: 0,
           top: 0,
           right: 0,
-          backgroundColor: 'rgba(51,55,69,0.60)',
+          backgroundColor: 'rgba(51,55,69,0.70)',
           color: 'white',
           height: '100vh'
         }} isPaddingless={true} >
           <StickyHeader />
           <Container hasTextAlign="centered" style={{ marginTop: '100px' }}>
-            <h2 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.5)' }}>Augmenting Society</h2>
-            <h3 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>March 17th, 2018 at South Hall</h3>
+            <Columns>
+              <Column isSize={8} isOffset={2} style={{ padding: '20px' }}>
+                <h2 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.5)' }}>Augmenting Society</h2>
+                <h3 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>March 17th, 2018 at South Hall, Berkeley</h3>
+                <p>
+                  Join us for a day-long conference of keynotes, panel discussions, unconference, academic speakers, expert deep dive sessions, project presentations through an inter-college EXPO and more.
+                  Tickets are on sale now!
+                </p>
+              </Column>
+            </Columns>
+            {/*
             <h4 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)', marginBottom: '10px' }}>Sign up for updates</h4>
-            
             <form action="https://infocamp.us2.list-manage.com/subscribe/post?u=536179e4b2849e96e841012a4&amp;id=36f8a21dd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
               <div id="mc_embed_signup_scroll">
               <Input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required style={{ marginBottom: '10px', width: '300px' }}/>
@@ -49,13 +58,13 @@ class IndexPage extends React.Component {
               </div>
               </div>
             </form>
-
-
-            {/*
-            <Button isSize="large" isColor="info">Get Tickets</Button><br />
-            <br />
-            <Link to="/page-2/">Learn More</Link>
             */}
+            
+            <a href={links.tickets} style={{ textDecoration: 'none' }}>
+              <Button isColor="warning" isSize="large">Get Tickets</Button>
+            </a>
+            <br />
+            <br />
           </Container>
         </Section>
       </div>
@@ -82,16 +91,21 @@ class IndexPage extends React.Component {
         </Container>
       </Section>
     
-
+      <a name="speakers" style={linkedAnchorStyle}></a>
       <Section>
         <Container hasTextAlign="centered">
             <Columns>
               <Column isSize={8} isOffset={2}>
                 <Title tag="h2" hasTextColor="dark">Speakers</Title>
+                {/*
                 <SpeakerList speakers={speakerData}/>
+                */}
+                <span>To be announced...</span>
               </Column>
             </Columns>
+            {/*
             <span>And more to be announced...</span>
+            */}
         </Container>
       </Section>
 
@@ -139,6 +153,7 @@ class IndexPage extends React.Component {
       </Section>
 
 
+      <a name="sponsors" style={linkedAnchorStyle}></a>
       <Section>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="dark">Sponsors</Title>

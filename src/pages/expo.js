@@ -63,9 +63,23 @@ class IndexPage extends React.Component {
               <Title tag="h2" hasTextColor="light">Why participate in the EXPO?</Title>
               <Content hasTextColor="light" hasTextAlign="left">
                 InfoCamp usually draws over 150 professionals, students, and entrepreneurs across a wide range of sectors who work in roles in data science, UX design, product management, policy, security, and software engineering.
-                You and one other member of your team get free tickets to InfoCamp 2018. (We are unable to cover travel costs for attendees this year)
-                Your work gets to be seen by our distinguished guests and conference attendees. 
-                You get an opportunity to network with potential collaborators.
+                <ul>
+                  <li>
+                    Get free tickets to InfoCamp 2018.
+                  </li>
+                  <li>
+                    Exhibit your work to over 150 professionals, students, and entrepreneurs from the industry. 
+                  </li>
+                  <li>
+                    Get an opportunity to network with potential collaborators.
+                  </li>
+                  <li>
+                    Get exclusive InfoCamp swag.
+                  </li>
+                  <li>
+                    Get your work featured on InfoCamp website!
+                  </li>
+                </ul>
               </Content>
 
               <a name="submit" style={linkedAnchorStyle}></a>

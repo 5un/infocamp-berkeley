@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Footer, Columns, Column, Content, Container  } from 'bloomer';
-
-const contactEmail = 'imsa@ischool.berkeley.edu'
+import links from '../content/links.json'
 
 const anchorStyle = {  
   border: '1px solid black', borderRadius: '50px', 
@@ -15,20 +14,20 @@ const SiteFooter = () => (
   <Footer id="footer">
     <Container hasTextAlign="centered">
       <Content>
-        More questions? <a href={`mailto:${contactEmail}`}>Contact us at {contactEmail}</a>
+        More questions? <a href={`mailto:${links.contactEmail}`}>Contact us at {links.contactEmail}</a>
         <div>
           <div style={{ display: 'inline-block', margin: '30px' }}>
-            <a href="https://www.facebook.com/InfoCampBerkeley/" style={anchorStyle}>
+            <a href={links.facebook} style={anchorStyle}>
               <img src="/images/icons8-facebook-f-96.png" style={{ maxWidth: '24px', maxHeight: '24px' }}/>
             </a>
           </div>
           <div style={{ display: 'inline-block', margin: '30px' }}>
-            <a href="https://twitter.com/infoberkeley/" style={anchorStyle }>
+            <a href={links.twitter} style={anchorStyle }>
               <img src="/images/icons8-twitter-96.png" style={{ maxWidth: '24px', maxHeight: '24px' }}/>
             </a>
           </div>
           <div style={{ display: 'inline-block', margin: '30px' }}>
-            <a href="https://www.instagram.com/imsa_berkeley/" style={anchorStyle}>
+            <a href={links.instagram} style={anchorStyle}>
               <img src="/images/icons8-instagram-96.png" style={{ maxWidth: '24px', maxHeight: '24px' }}/>
             </a>
           </div>

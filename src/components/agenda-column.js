@@ -13,7 +13,7 @@ const AgendaColumn = (props) => (
             {slot.items.length === 1 &&
               <Columns isMarginless={true} isPaddingless={true}>
                 <Column hasTextAlign="center" isMarginless={true} isPaddingless={true}>
-                  {slot.items[0]}
+                  <p dangerouslySetInnerHTML={{__html: slot.items[0] }}></p>
                 </Column>
               </Columns>
             }
@@ -21,7 +21,7 @@ const AgendaColumn = (props) => (
               <Columns isMarginless={true} isPaddingless={true}>
                 {slot.items.map(item => (
                   <Column key={item} isSize="1/2" hasTextAlign="center" isMarginless={true} isPaddingless={true}>
-                    {item}
+                    <p dangerouslySetInnerHTML={{__html: item }}></p>
                   </Column>
                 ))}
               </Columns>
@@ -31,7 +31,7 @@ const AgendaColumn = (props) => (
               <Columns isMarginless={true} isPaddingless={true}>
                 {slot.items.map(item => (
                   <Column key={item} isSize="1/3" hasTextAlign="center" isMarginless={true} isPaddingless={true}>
-                    {item}
+                    <p dangerouslySetInnerHTML={{__html: item }}></p>
                   </Column>
                 ))}
               </Columns>
@@ -41,7 +41,7 @@ const AgendaColumn = (props) => (
               <Columns isMarginless={true} isPaddingless={true}>
                 {slot.items.map(item => (
                   <Column key={item} isSize="1/4" hasTextAlign="center" isMarginless={true} isPaddingless={true}>
-                    {item}
+                    <p dangerouslySetInnerHTML={{__html: item }}></p>
                   </Column>
                 ))}
               </Columns>

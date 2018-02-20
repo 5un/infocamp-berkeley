@@ -17,7 +17,7 @@
   {
     "start": "11:00 AM",
     "end": "11:50 AM",
-    "items": [ "Panels (2 concurrent)" ]
+    "items": [ "Panels<br />Panel 1: Blockchain<br />Panel 2: Virtual Reality" ]
   },
   {
     "start": "11:50 AM",
@@ -42,7 +42,7 @@
   {
     "start": "1:50 PM",
     "end": "2:50 PM",
-    "items": [ "Deep Dive Sessions (4 30min sessions)" ]
+    "items": [ "Deep Dive Sessions (Two 30min sessions)" ]
   },
   {
     "start": "2:50 PM",
@@ -52,7 +52,7 @@
   {
     "start": "3:00 PM",
     "end": "4:00 PM",
-    "items": [ "Academic Talk (2 Faculty Talks)" ]
+    "items": [ "Academic Talk (Two Faculty Talks)" ]
   },
   {
     "start": "4:00 PM",
