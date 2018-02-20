@@ -125,15 +125,15 @@ class IndexPage extends React.Component {
           <Title tag="h2" hasTextColor="light">Register</Title>
           <Columns>
             <Column isSize="1/3" hasTextAlign="center">
-              <img src="/images/icon-unconference.png" width="150"/>
-              <Title tag="h4" isSize={6} hasTextColor="light">
-                Unconference<br/>
-                (To be announced)
-              </Title>
+              <a style={{ textDecoration: 'none' }} href="/unconference">
+                <img src="/images/icon-unconference.png" width="150"/>
+                <Title tag="h4" isSize={6} hasTextColor="light">
+                  Unconference<br/>
+                </Title>
+              </a>
             </Column>
             <Column isSize="1/3" hasTextAlign="center">
-              <a style={{ textDecoration: 'none' }}
-                href="https://www.eventbrite.com/e/infocamp-2018-tickets-42729120951?utm_source=eb_email&utm_medium=email&utm_campaign=new_event_email&utm_term=viewmyevent_button">
+              <a style={{ textDecoration: 'none' }} href={links.tickets}>
                 <img src="/images/icon-tickets.png" width="150"/>
                 <Title tag="h4" isSize={6} hasTextColor="light">
                   Tickets
