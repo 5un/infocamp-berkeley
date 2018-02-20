@@ -20,6 +20,19 @@ import { Container, Section, Columns, Column, Control, Image, Content, Button, I
 const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
 
 class IndexPage extends React.Component {
+  
+  componentDidMount() {
+    if(window) {
+      const hash = window.location.hash
+      if(hash) {
+        setTimeout(() => {
+          let anchor = document.getElementById(`anchor-${hash.substring(1)}`)
+          window.scrollTo(0, anchor.offsetTop)
+        })
+      }
+    }
+  }
+
   render() {
     return (<div>
       <div style={{ position: 'relative' }}>
@@ -69,7 +82,7 @@ class IndexPage extends React.Component {
         </Section>
       </div>
       
-      <a name="about" style={linkedAnchorStyle}></a>
+      <a name="about" id="anchor-about" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#333744' }}>
         <Container hasTextAlign="centered">
           <Columns>
@@ -91,7 +104,7 @@ class IndexPage extends React.Component {
         </Container>
       </Section>
     
-      <a name="speakers" style={linkedAnchorStyle}></a>
+      <a name="speakers" id="anchor-speakers" style={linkedAnchorStyle}></a>
       <Section>
         <Container hasTextAlign="centered">
             <Columns>
@@ -107,7 +120,7 @@ class IndexPage extends React.Component {
         </Container>
       </Section>
 
-      <a name="schedule" style={linkedAnchorStyle}></a>
+      <a name="schedule" id="anchor-schedule" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#ED5E61' }}>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="light">Schedule</Title>
@@ -117,7 +130,7 @@ class IndexPage extends React.Component {
         </Container>
       </Section>
 
-      <a name="register" style={linkedAnchorStyle}></a>
+      <a name="register" id="anchor-register" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#EFAD3B' }}>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="light">Register</Title>
@@ -151,7 +164,7 @@ class IndexPage extends React.Component {
       </Section>
 
 
-      <a name="sponsors" style={linkedAnchorStyle}></a>
+      <a name="sponsors" id="anchor-sponsors" style={linkedAnchorStyle}></a>
       <Section>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="dark">Sponsors</Title>
@@ -164,7 +177,7 @@ class IndexPage extends React.Component {
         </Container>
       </Section>
       
-      <a name="faqs" style={linkedAnchorStyle}></a>
+      <a name="faqs" id="anchor-faqs" style={linkedAnchorStyle}></a>
       <Section style={{ backgroundColor: '#333744' }}>
         <Container hasTextColor="light" hasTextAlign="left">
           <Columns>
