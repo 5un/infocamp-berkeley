@@ -35,8 +35,10 @@ class IndexPage extends React.Component {
                   <p>
                     The Information School at UC Berkeley is a place for the exchange of ideas between industry, scholars, and the public. <a href={links.unconference}>Join us</a> by suggesting a conference session to be included at Infocamp 2018! 
                   </p>
+                  <p>Unconferences like InfoCamp feature a community-driven format, so we ask attendees to create, pitch and lead their own sessions. To host a session, you simply choose the topic and the format, pitch your idea to the group. The schedule gets created on the fly, and you get to vote on sessions – and if yours is chosen, you pick a time slot and present.
+                  </p>
                   <p>
-                    Selection of session to be included will be decided by the votes of participants at the conference. With the digital and the technical augmenting the fabric of our society, we believe that every perspective and voice is important in the conversation towards deciding the world to come.
+                    Submitted session topics will be voted upon on the day of the conference. Further the discussion on the future of our augmented society by contributing an session topic today!
                   </p>
                 </Content>
                 <a href={links.unconference} style={{ textDecoration: 'none' }}>
