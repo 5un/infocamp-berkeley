@@ -90,8 +90,7 @@ class IndexPage extends React.Component {
               <Title tag="h2" hasTextColor="light">Important Dates</Title>
               <Content hasTextColor="light" hasTextAlign="left">
                 Call for Projects Announced&nbsp;&nbsp;&nbsp;&nbsp;Feb 5th 2018<br />
-                Submission Deadline&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb 25th 2018<br />
-                Exhibitors Announced&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Early Mar 2018<br />
+                Submission Deadline&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar 4th 2018<br />
                 Infocamp 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar 17th 2018<br />
               </Content>
 
