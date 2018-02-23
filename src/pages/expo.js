@@ -18,8 +18,8 @@ class IndexPage extends React.Component {
           { name: 'og:url', content: 'https://berkeley-infocamp.org/expo' },
           { name: 'og:type', content: 'website' },
           { name: 'og:title', content: 'Call for inter-college project EXPO' },
-          { name: 'og:description', content: 'Exhibit your work to over 150 professionals, students, and entrepreneurs from the industry.' },
-          { name: 'og:image', content: 'https://berkeley-infocamp.org/images/infocamp_expo_og_01.png' },
+          { name: 'og:description', content: 'Exhibit your work to over 150 VR/Blockchain professionals, students, and entrepreneurs from the industry.' },
+          { name: 'og:image', content: 'https://berkeley-infocamp.org/images/infocamp_expo_og_fb.png' },
         ]}
       />
       <div style={{ position: 'relative' }}>
