@@ -23,7 +23,7 @@ export default class TemplateWrapper extends React.Component {
       <Helmet
         title="INFOCAMP Berkeley 2018"
         meta={[
-          { name: 'description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
+          { name: 'description', content: 'Join us at Infocamp 2018 on March 17, 2018 for a lively exploration into the impact of emerging technologies on society.' },
           { name: 'keywords', content: 'InfoCamp, uconference, event, information science, datascience, design, society' },
           { name: 'og:url', content: 'https://berkeley-infocamp.org' },
           { name: 'og:type', content: 'website' },

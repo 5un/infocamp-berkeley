@@ -3,12 +3,25 @@ import Link, { withPrefix } from 'gatsby-link'
 import links from '../content/links.json'
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
+import Helmet from 'react-helmet'
 
 const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
 
 class IndexPage extends React.Component {
   render() {
     return (<div>
+      <Helmet
+        title="Call for EXPO, INFOCAMP Berkeley 2018"
+        meta={[
+          { name: 'description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
+          { name: 'keywords', content: 'InfoCamp, uconference, event, information science, datascience, design, society' },
+          { name: 'og:url', content: 'https://berkeley-infocamp.org/expo' },
+          { name: 'og:type', content: 'website' },
+          { name: 'og:title', content: 'Call for inter-college project EXPO' },
+          { name: 'og:description', content: 'Exhibit your work to over 150 professionals, students, and entrepreneurs from the industry.' },
+          { name: 'og:image', content: 'https://berkeley-infocamp.org/images/infocamp_expo_og_01.png' },
+        ]}
+      />
       <div style={{ position: 'relative' }}>
         <Section style={{ 
           backgroundSize: 'cover',
