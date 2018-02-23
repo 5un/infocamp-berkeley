@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
       <Helmet
         title="Call for EXPO, INFOCAMP Berkeley 2018"
         meta={[
-          { name: 'description', content: 'InfoCamp Berkeley 2018 will be held on March 17, 2018 at South Hall, University of California, Berkeley' },
+          { name: 'description', content: 'Exhibit your work to over 150 VR/Blockchain professionals, students, and entrepreneurs from the industry.' },
           { name: 'keywords', content: 'InfoCamp, uconference, event, information science, datascience, design, society' },
           { name: 'og:url', content: 'https://berkeley-infocamp.org/expo' },
           { name: 'og:type', content: 'website' },
