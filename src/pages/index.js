@@ -108,7 +108,7 @@ class IndexPage extends React.Component {
         <Container hasTextAlign="centered">
             <Columns>
               <Column isSize={8} isOffset={2}>
-                <Title tag="h2" hasTextColor="dark">Speakers and Panelists</Title>
+                <Title tag="h2" hasTextColor="dark">Speakers</Title>
                 <SpeakerList speakers={speakerData}/>
                 {/*
                   <span>To be announced...</span>

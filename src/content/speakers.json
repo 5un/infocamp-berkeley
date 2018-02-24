@@ -1,6 +1,6 @@
 [
   {
-    "name": "Speakers",
+    "name": "Blockchain Panelists",
     "speakers": [
       {
         "name": "Anastasia Miron",
@@ -11,16 +11,37 @@
         "name": "Dawn Song",
         "image": "/images/speakers-song.jpg",
         "title": "Professor, Department of EECS at UC Berkeley"
+      }
+    ]
+  },
+  {
+    "name": "Virtual Reality Panelists",
+    "speakers": [
+      {
+        "name": "Olga Ivanova",
+        "image": "/images/speakers-ivanova.jpg",
+        "title": "CEO, VR Oxygen"
       },
       {
-        "name": "Morgan Ames",
-        "image": "/images/speakers-ames.jpg",
-        "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information"
+        "name": "Gregorij Kurillo",
+        "image": "/images/speakers-kurillo.jpg",
+        "title": "Assistant Research Engineer, Berkeley Teleimmersion Lab"
       },
+
       {
         "name": "Rich Ridlen",
         "image": "/images/speakers-ridlen-2.jpg",
         "title": "Lead User Researcher, YouTube VR"
+      }
+    ]
+  },
+  {
+    "name": "Academic Speakers",
+    "speakers": [
+      {
+        "name": "Morgan Ames",
+        "image": "/images/speakers-ames.jpg",
+        "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information"
       }
     ]
   }

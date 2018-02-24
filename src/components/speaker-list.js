@@ -10,9 +10,7 @@ const SpeakerList = (props) => (
         {
           props.speakers.map((group) => (
             <div key={group.name}>
-              {/*
               <Title tag="h4" isSize={5}>{group.name}</Title>
-              */}
               {group.speakers.length > 0 && 
                 <Columns isCentered>
                   {
