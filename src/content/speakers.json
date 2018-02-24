@@ -5,12 +5,16 @@
       {
         "name": "Anastasia Miron",
         "image": "/images/speakers-miron.jpg",
-        "title": "Social Speaker on Blockchain, Founder at Child Proof Yourself"
+        "title": "Social Speaker on Blockchain, Founder at Child Proof Yourself",
+        "link": "http://www.anastasiamiron.is/#about",
+        "bio": ""
       },
       {
         "name": "Dawn Song",
         "image": "/images/speakers-song.jpg",
-        "title": "Professor, Department of EECS at UC Berkeley"
+        "title": "Professor, Department of EECS at UC Berkeley",
+        "link": "https://people.eecs.berkeley.edu/~dawnsong/",
+        "bio": "Dawn Song is a Professor in the Department of Electrical Engineering and Computer Science at UC Berkeley. Her research interest lies in deep learning, security, and blockchain. She has studied diverse security and privacy issues in computer systems and networks, including areas ranging from software security, networking security, distributed systems security, applied cryptography, blockchain and smart contracts, to the intersection of machine learning and security. She is the recipient of various awards including the MacArthur Fellowship, the Guggenheim Fellowship, the NSF CAREER Award, the Alfred P. Sloan Research Fellowship, the MIT Technology Review TR-35 Award, the Faculty Research Award from IBM, Google and other major tech companies, and Best Paper Awards from top conferences in Computer Security and Deep Learning. She obtained her Ph.D. degree from UC Berkeley. Prior to joining UC Berkeley as a faculty, she was a faculty at Carnegie Mellon University from 2002 to 2007."
       }
     ]
   },
@@ -20,18 +24,23 @@
       {
         "name": "Olga Ivanova",
         "image": "/images/speakers-ivanova.jpg",
-        "title": "CEO, VR Oxygen"
+        "title": "CEO, VR Oxygen",
+        "link": "https://ol-iva.com/",
+        "bio": "Leading the virtual reality company to create and deliver meaningful experiences to enhance everyday life. Olga works on Human-Centered VR Design and researches, evaluates and tests various VR solutions. Olga has Master's Degree in Communication design, during her journey as a creative professional, she has developed brands and successfully launched products always focusing on people, user-centered experiences and business goals. She worked with different platforms, tools, and technologies such as P2P blockchain applications and, of course, VR. Olga’s varied skills were a great asset to start working on VR. Olga is fascinated by the constant VR discovery process and keeps learning new tools and skills every day."
       },
       {
         "name": "Gregorij Kurillo",
         "image": "/images/speakers-kurillo.jpg",
-        "title": "Assistant Research Engineer, Berkeley Teleimmersion Lab"
+        "title": "Researcher, Berkeley Teleimmersion Lab",
+        "link": "https://people.eecs.berkeley.edu/~gregorij/",
+        "bio": "Gregorij Kurillo received B.Sc. and Ph.D. degrees in Electrical Engineering at University of Ljubljana, Slovenia, where he was a Research Assistant with the Laboratory of Robotics and Biomedical Engineering. His research focus was on the analysis of human grasping for virtual reality based rehabilitation. Since 2006, Dr. Kurillo has been a researcher with Teleimmersion Lab at University of California, Berkeley, where he contributed to multi-disciplinary research in collaborative virtual reality, human computer interaction, digital healthcare, and telemedicine. He is author/co-author of over 100 scientific and technical papers in various peer-reviewed journals and international conferences. He is also editorial board member of Technology and Health Care journal and a reviewer for several robotics and computer vision publications."
       },
-
       {
         "name": "Rich Ridlen",
         "image": "/images/speakers-ridlen-2.jpg",
-        "title": "Lead User Researcher, YouTube VR"
+        "title": "Lead User Researcher, YouTube VR",
+        "link": "https://www.linkedin.com/in/rich-ridlen-402b614/",
+        "bio": ""
       }
     ]
   },
@@ -41,7 +50,9 @@
       {
         "name": "Morgan Ames",
         "image": "/images/speakers-ames.jpg",
-        "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information"
+        "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information",
+        "link": "http://morganya.org/bio.html",
+        "bio": ""
       }
     ]
   }

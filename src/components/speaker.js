@@ -8,7 +8,7 @@ const Speaker = (props) => (
       <img src={props.speaker.image} style={{ borderRadius: '96px', clip: 'auto', width: '192px', height: '192px' }}/>
     </div>
     <div>
-      <strong>{props.speaker.name}</strong><br />
+      <a href={props.speaker.link} target="_blank" style={{ textDecoration: 'none' }}><strong>{props.speaker.name}</strong></a><br />
       <small>{props.speaker.title}</small>
     </div>
   </Column>
