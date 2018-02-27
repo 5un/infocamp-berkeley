@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link, { withPrefix } from 'gatsby-link'
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
@@ -10,6 +11,18 @@ const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
 class IndexPage extends React.Component {
   render() {
     return (<div>
+      <Helmet
+        title="Unconference, INFOCAMP Berkeley 2018"
+        meta={[
+          { name: 'description', content: 'Further the discussion of our augmented society at InfoCamp Berkeley on Saturday March 17, 2018 at South Hall, University of California, Berkeley.' },
+          { name: 'keywords', content: 'InfoCamp, uconference, event, information science, datascience, design, society' },
+          { name: 'og:url', content: 'https://berkeley-infocamp.org/unconference' },
+          { name: 'og:type', content: 'website' },
+          { name: 'og:title', content: 'Call for Unconference Sessions' },
+          { name: 'og:description', content: 'Further the discussion of our augmented society at InfoCamp Berkeley on Saturday March 17, 2018 at South Hall, University of California, Berkeley.' },
+          { name: 'og:image', content: 'https://berkeley-infocamp.org/images/infocamp_unconf_og_fb.png' },
+        ]}
+      />
       <div style={{ position: 'relative' }}>
         <Section style={{ 
           backgroundSize: 'cover',
