@@ -6,61 +6,61 @@
   },
   {
     "start": "10:00 AM",
-    "end": "10:15 AM",
+    "end": "10:10 AM",
     "items": [ "Opening Remarks" ]
   },
   {
-    "start": "10:15 AM",
+    "start": "10:10 AM",
     "end": "11:00 AM",
     "items": [ "Opening Keynote" ]
   },
   {
     "start": "11:00 AM",
-    "end": "11:50 AM",
-    "items": [ "Panels<br />Panel 1: Blockchain<br />Panel 2: Virtual Reality" ]
+    "end": "12:15 PM",
+    "items": [ "Panels<br />Panel 1: Blockchain<br />Panel 2: AR/VR" ]
   },
   {
-    "start": "11:50 AM",
-    "end": "12:00 PM",
-    "items": [ "Short Break" ]
+    "start": "12:15 PM",
+    "end": "12:30 PM",
+    "items": [ "Unconference Brief + Short Break" ]
   },
   {
-    "start": "12:00 PM",
-    "end": "12:20 PM ",
+    "start": "12:30 PM",
+    "end": "12:50 PM ",
     "items": [ "Unconference Pitches" ]
   },
   {
-    "start": "12:20 PM",
-    "end": "1:20 PM",
+    "start": "12:50 PM",
+    "end": "1:45 PM",
     "items": [ "Lunch Break" ]
   },
   {
-    "start": "1:20 PM",
-    "end": "1:50 PM",
+    "start": "1:45 PM",
+    "end": "2:15 PM",
     "items": [ "Unconference Sessions" ]
   },
   {
-    "start": "1:50 PM",
-    "end": "2:50 PM",
-    "items": [ "Deep Dive Sessions (Two 1 hour sessions in parallel)" ]
-  },
-  {
-    "start": "2:50 PM",
+    "start": "2:15 PM",
     "end": "3:00 PM",
-    "items": [ "Short Break" ]
-  },
-  {
-    "start": "3:00 PM",
-    "end": "4:00 PM",
     "items": [ "Academic Talk (Two Faculty Talks)" ]
   },
   {
+    "start": "3:00 PM",
+    "end": "3:15 PM",
+    "items": [ "Short Break" ]
+  },
+  {
+    "start": "3:15 PM",
+    "end": "4:00 PM",
+    "items": [ "Deep Dive Sessions (Two sessions in parallel)" ]
+  },
+  {
     "start": "4:00 PM",
-    "end": "4:30 PM",
+    "end": "4:45 PM",
     "items": [ "End Keynote" ]
   },
   {
-    "start": "4:30 PM",
+    "start": "4:45 PM",
     "end": "5:30 PM",
     "items": [ "EXPO + Happy Hour" ]
   }
