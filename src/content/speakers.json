@@ -15,16 +15,30 @@
         "title": "Professor, Department of EECS at UC Berkeley",
         "link": "https://people.eecs.berkeley.edu/~dawnsong/",
         "bio": "Dawn Song is a Professor in the Department of Electrical Engineering and Computer Science at UC Berkeley. Her research interest lies in deep learning, security, and blockchain. She has studied diverse security and privacy issues in computer systems and networks, including areas ranging from software security, networking security, distributed systems security, applied cryptography, blockchain and smart contracts, to the intersection of machine learning and security. She is the recipient of various awards including the MacArthur Fellowship, the Guggenheim Fellowship, the NSF CAREER Award, the Alfred P. Sloan Research Fellowship, the MIT Technology Review TR-35 Award, the Faculty Research Award from IBM, Google and other major tech companies, and Best Paper Awards from top conferences in Computer Security and Deep Learning. She obtained her Ph.D. degree from UC Berkeley. Prior to joining UC Berkeley as a faculty, she was a faculty at Carnegie Mellon University from 2002 to 2007."
+      },
+      {
+        "name": "Kevin Liu",
+        "image": "/images/speakers-liu.jpg",
+        "title": "Seed Investor",
+        "link": "https://www.linkedin.com/in/ckevinliu/",
+        "bio": ""
+      },
+      {
+        "name": "Robert Greenfield",
+        "image": "/images/speakers-greenfield.jpg",
+        "title": "Chief Technology Officer, Consensys Social Impact",
+        "link": "https://www.linkedin.com/in/robtg4/",
+        "bio": ""
       }
     ]
   },
   {
-    "name": "Virtual Reality Panelists",
+    "name": "AR/VR Panelists",
     "speakers": [
       {
         "name": "Olga Ivanova",
         "image": "/images/speakers-ivanova.jpg",
-        "title": "CEO, VR Oxygen",
+        "title": "Chief Executive Officer, VR Oxygen",
         "link": "https://ol-iva.com/",
         "bio": "Leading the virtual reality company to create and deliver meaningful experiences to enhance everyday life. Olga works on Human-Centered VR Design and researches, evaluates and tests various VR solutions. Olga has Master's Degree in Communication design, during her journey as a creative professional, she has developed brands and successfully launched products always focusing on people, user-centered experiences and business goals. She worked with different platforms, tools, and technologies such as P2P blockchain applications and, of course, VR. Olga’s varied skills were a great asset to start working on VR. Olga is fascinated by the constant VR discovery process and keeps learning new tools and skills every day."
       },
@@ -55,10 +69,29 @@
     "name": "Academic Speakers",
     "speakers": [
       {
+        "name": "Marti Hearst",
+        "image": "/images/speakers-hearst.jpg",
+        "title": "Professor, School of Information and the Department of EECS at UC Berkeley",
+        "link": "http://people.ischool.berkeley.edu/~hearst/bio.html",
+        "bio": ""
+      },
+      {
         "name": "Morgan Ames",
         "image": "/images/speakers-ames.jpg",
         "title": "Postdoctoral Scholar and Lecturer at UC Berkeley School of Information",
         "link": "http://morganya.org/bio.html",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "name": "Deep Dive Speaker",
+    "speakers": [
+      {
+        "name": "Matthew Werner",
+        "image": "/images/speakers-werner.jpg",
+        "title": "Engineering Manager, Coinbase",
+        "link": "https://www.linkedin.com/in/mattwerner/",
         "bio": ""
       }
     ]
