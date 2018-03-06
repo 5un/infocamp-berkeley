@@ -1,5 +1,17 @@
 [
   {
+    "name": "Keynote Speakers",
+    "speakers": [
+      {
+        "name": "Marissa Gallagher",
+        "image": "/images/speakers-gallagher.jpg",
+        "title": "Head of UX & Design, Amazon Music",
+        "link": "https://www.linkedin.com/in/marisagallagher",
+        "bio": ""
+      }
+    ]
+  },
+  {
     "name": "Blockchain Panelists",
     "speakers": [
       {
@@ -28,6 +40,13 @@
         "image": "/images/speakers-greenfield.jpg",
         "title": "Chief Technology Officer, Consensys Social Impact",
         "link": "https://www.linkedin.com/in/robtg4/",
+        "bio": ""
+      },
+      {
+        "name": "Phien Le",
+        "image": "/images/speakers-le.jpg",
+        "title": "Trader at Galois Capital",
+        "link": "https://www.linkedin.com/in/kevin-phien-le-491229139/",
         "bio": ""
       }
     ]
@@ -92,6 +111,13 @@
         "image": "/images/speakers-werner.jpg",
         "title": "Engineering Manager, Coinbase",
         "link": "https://www.linkedin.com/in/mattwerner/",
+        "bio": ""
+      },
+      {
+        "name": "James Wang",
+        "image": "/images/speakers-wang.jpg",
+        "title": "Co-founder and CTO / COO",
+        "link": "https://www.linkedin.com/in/jwang10/",
         "bio": ""
       }
     ]
