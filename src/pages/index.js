@@ -4,7 +4,7 @@ import Link, { withPrefix } from 'gatsby-link'
 import sponsorsData from '../content/sponsors.json'
 import speakerData from '../content/speakers.js'
 import faqsData from '../content/faqs.json'
-import agendaData from '../content/agenda.json'
+import agendaData from '../content/agenda.js'
 import links from '../content/links.json'
 
 import SponsorList from '../components/sponsor-list'
@@ -109,16 +109,9 @@ class IndexPage extends React.Component {
       <a name="speakers" id="anchor-speakers" style={linkedAnchorStyle}></a>
       <Section>
         <Container hasTextAlign="centered">
-            <Columns>
-              <Column isSize={8} isOffset={2}>
-                <Title tag="h2" hasTextColor="dark">Speakers</Title>
-                <SpeakerList speakers={speakerData}/>
-                {/*
-                  <span>To be announced...</span>
-                */}
-              </Column>
-            </Columns>
-            <span>And more to be announced...</span>
+          <Title tag="h2" hasTextColor="dark">Speakers</Title>
+          <SpeakerList speakers={speakerData}/>
+          <span>And more to be announced...</span>
         </Container>
       </Section>
 
@@ -170,12 +163,7 @@ class IndexPage extends React.Component {
       <Section>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="dark">Sponsors</Title>
-          <p>To be announced.</p>
-          {
-            /*
-            <SponsorList sponsors={sponsorsData}/>
-            */
-          }
+          <SponsorList sponsors={sponsorsData}/>
         </Container>
       </Section>
     </div>)

@@ -120,7 +120,7 @@ const speakers =
         "image": "/images/speakers-ridlen-2.jpg",
         "title": "Lead User Researcher, YouTube VR",
         "link": "https://www.linkedin.com/in/rich-ridlen-402b614/",
-        "bio": ""
+        "bio": "Rich Ridlen has been conducting user research for 15 years. He currently leads research on YouTube VR and AR. Prior to that, he founded and ran the user research department at the Electronic Arts HQ, primarily focusing on AAA video games."
       },
       {
         "name": "Steve Toh",

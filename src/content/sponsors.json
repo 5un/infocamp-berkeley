@@ -1,14 +1,10 @@
 [
   {
-    "name": "Acme Company 1",
-    "image": "images/mock-company-1.png"
+    "name": "Survey Monkey",
+    "image": "/images/logo-survey-monkey.png"
   },
   {
-    "name": "Acme Company 2",
-    "image": "images/mock-company-2.png"
-  },
-  {
-    "name": "Acme Company 3",
-    "image": "images/mock-company-3.png"
+    "name": "PricewaterhouseCoopers",
+    "image": "/images/logo-pwc.jpg"
   }
 ]
