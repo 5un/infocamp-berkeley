@@ -29,7 +29,7 @@ export default class BurgerMenu extends React.Component {
                 <a href="/#sponsors" style={{ color: '#cccccc' }} onClick={this.handleMenuClicked.bind(this)}>Sponsors</a>
               </li>
               <li>
-                <a href="/#faqs" style={{ color: '#cccccc' }} onClick={this.handleMenuClicked.bind(this)}>FAQs</a>
+                <a href="/faqs" style={{ color: '#cccccc' }} onClick={this.handleMenuClicked.bind(this)}>FAQs</a>
               </li>
             </ul>
           </li>

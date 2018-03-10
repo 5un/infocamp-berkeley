@@ -2,7 +2,7 @@ import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 
 import sponsorsData from '../content/sponsors.json'
-import speakerData from '../content/speakers.json'
+import speakerData from '../content/speakers.js'
 import faqsData from '../content/faqs.json'
 import agendaData from '../content/agenda.json'
 import links from '../content/links.json'
@@ -14,7 +14,10 @@ import FAQS from '../components/faqs'
 
 import StickyHeader from '../layouts/sticky-header'
 import ThreejsBackdrop from '../components/three-js-backdrop'
-import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
+import { Container, Section, Columns, Column, Control,
+         Image, Content, Button, Input, Title,
+          Modal, ModalBackground, ModalCard, ModalCardHeader, ModalCardTitle, 
+          ModalCardBody, ModalCardFooter, ModalClose, Delete } from 'bloomer';
 
 const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
 
@@ -175,19 +178,6 @@ class IndexPage extends React.Component {
           }
         </Container>
       </Section>
-      
-      <a name="faqs" id="anchor-faqs" style={linkedAnchorStyle}></a>
-      <Section style={{ backgroundColor: '#333744' }}>
-        <Container hasTextColor="light" hasTextAlign="left">
-          <Columns>
-            <Column isSize={8} isOffset={2}>
-              <Title tag="h2" hasTextColor="light" hasTextAlign="centered" >FAQS</Title>
-              <FAQS data={faqsData}/>
-            </Column>
-          </Columns>
-        </Container>
-      </Section>
-        
     </div>)
   }
 

@@ -41,7 +41,7 @@ export default class StickyHeader extends React.Component {
             const aboutSubMenus = [
               { title: 'About InfoCamp', linkTo: '/#about' },
               { title: 'Sponsors', linkTo: '/#sponsors' },
-              { title: 'FAQ', linkTo: '/#faqs' }
+              { title: 'FAQ', linkTo: '/faqs' }
             ]
 
             return (
