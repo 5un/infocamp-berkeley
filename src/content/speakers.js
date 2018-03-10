@@ -83,7 +83,7 @@ const speakers =
       {
         "name": "Phien Le",
         "image": "/images/speakers-le.jpg",
-        "title": "Trader at Galois Capital",
+        "title": "Trader, Galois Capital",
         "link": "https://www.linkedin.com/in/kevin-phien-le-491229139/",
         "bio": "Phien is also an open-source blockchain developer. Previously, he was an intern at bitFlyer and a software developer before that."
       }

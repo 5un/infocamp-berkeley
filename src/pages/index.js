@@ -163,6 +163,7 @@ class IndexPage extends React.Component {
       <Section>
         <Container hasTextAlign="centered">
           <Title tag="h2" hasTextColor="dark">Sponsors</Title>
+          <br />
           <SponsorList sponsors={sponsorsData}/>
         </Container>
       </Section>
