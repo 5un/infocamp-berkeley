@@ -52,7 +52,19 @@ const agenda = [
   {
     "start": "2:15 PM",
     "end": "3:00 PM",
-    "items": [ "Deep Dive Sessions (Two sessions in parallel)" ]
+    "items": [ 
+      "Deep Dive Sessions (2 in concurrent)",
+      {
+        "name": "Blockchain: Anatomy of a hot wallet",
+        "speaker": "Matthew Werner",
+        "showDetail": false
+      },
+      {
+        "name": "Bio-sensing and Sexuality",
+        "speaker": "James Wang",
+        "showDetail": false
+      }
+    ]
     
   },
   {
@@ -64,7 +76,7 @@ const agenda = [
     "start": "3:15 PM",
     "end": "4:00 PM",
     "items": [
-      "Academic Talks (2 Concurrent)",
+      "Academic Talks (2 in concurrent)",
       {
         "name": "What Can Lead us to Next Generation Breakthroughs in Learning?",
         "speaker": "Marti Hearst",
@@ -83,7 +95,8 @@ const agenda = [
           <p>
             My dream is that every time someone thought about attempting to learn something new, their next immediate thought was:  “No problem, I can do that!”  And that thought would be merited.
           </p>
-        `
+        `,
+        "showDetail": true
       },
       {
         "name": "Accounting for Social Class in HCI",
@@ -93,7 +106,8 @@ const agenda = [
           <p>
             What do we mean when we talk about class? I will discuss the role of social class, or ‘socioeconomic status’ (SES), in technology design and evaluation. While studies along socioeconomic lines are common in the social sciences, such approaches are more rare in human-computer interaction and technology design where “middle-class” has long been the invisible default. This research challenges the tendency to design for users whose lives resemble designers’ by discussing issues of power, culture, and resource access.
           </p>
-        `
+        `,
+        "showDetail": true
       }
     ]
   },

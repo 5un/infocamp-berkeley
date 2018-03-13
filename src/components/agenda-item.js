@@ -13,7 +13,10 @@ class AgendaItem extends React.Component {
   }
 
   handleOnClick() {
-    this.setState({ showModal: true })
+    const { showDetails } = this.props.item
+    if (showDetails) {
+      this.setState({ showModal: true })
+    }
   }
 
   handleOnModalCloseClicked() {
