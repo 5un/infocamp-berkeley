@@ -135,6 +135,21 @@ const speakers =
             Steve has spent 10+ years in the games industry and several years at startups taking concepts down the road to finished products. Currently he leads a cross-disciplinary team at Google creating immersive computing experiences.
           </p>
         `
+      },
+      {
+        "name": "Ross Finman",
+        "image": "/images/speakers-finman.jpg",
+        "title": "AR Mapping Lead, Niantic Inc.",
+        "bio":`
+          <p>Ross is leading the vision and development of augmented reality (AR) mapping at Niantic, Inc., an innovative company building cutting edge planet-scale AR technology that can be leveraged to create “real world” interactive experiences that foster exploration, exercise and social interaction.
+          </p>
+          <p>
+          Obsessed with everything connecting the physical and digital worlds, Ross founded Escher Reality in 2016 to focus on exploring the intersection of digital and physical worlds, augmented reality (AR), and computer vision, which was which was acquired by Niantic in 2018.
+          </p>
+          <p>
+          Prior to founding Escher, Ross spent seven years on his graduate research at MIT in 3-D perception and mapping. He received his Bachelor of Science in Computer Engineering with a focus on Robotics at Carnegie Mellon University in three years.
+          </p>
+        `
       }
     ]
   },
