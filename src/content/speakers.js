@@ -95,7 +95,7 @@ const speakers =
       {
         "name": "Olga Ivanova",
         "image": "/images/speakers-ivanova.jpg",
-        "title": "Chief Executive Officer, VR Oxygen",
+        "title": "Founder & Product Designer, VR Oxygen",
         "link": "https://ol-iva.com/",
         "bio":  `
           <p>

@@ -31,11 +31,6 @@ const agenda = [
   },
   {
     "start": "12:15 PM",
-    "end": "12:30 PM",
-    "items": [ "Unconference Brief + Short Break" ]
-  },
-  {
-    "start": "12:30 PM",
     "end": "12:50 PM ",
     "items": [ "Unconference Pitches" ]
   },
