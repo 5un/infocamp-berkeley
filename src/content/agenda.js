@@ -7,12 +7,22 @@ const agenda = [
   {
     "start": "10:00 AM",
     "end": "10:10 AM",
-    "items": [ "Opening Remarks" ]
+    "items": [ 
+      {
+        "name": "Opening Remarks",
+        "room": "Room 202"
+      }
+    ]
   },
   {
     "start": "10:10 AM",
     "end": "11:00 AM",
-    "items": [ "Opening Keynote" ]
+    "items": [
+      {
+        "name": "Opening Keynote",
+        "room": "Room 202"
+      }
+    ]
   },
   {
     "start": "11:00 AM",
@@ -21,10 +31,12 @@ const agenda = [
       "Panels",
       {
         "name": "Blockchain Panel",
+        "room": "Room 202",
         "details": "With the escalating conversations surrounding net neutrality, there has never been a more important time for blockchain technology. With technology poised for unprecedented disruption by leveraging blockchain capabilities and efficiencies, there is no better time than now to have this conversation. As blockchain emerges through the Internet of Things and amalgamates with not just the technology but also the social, business and humanitarian realms of society, it is imperative we understand the future of this breakthrough. From it’s origins in the form of cryptocurrency to a revolutionary technology that is now embedded across our community, join our diverse panelists in discussing and further understanding blockchain in the past, present and future of society."
       },
       {
         "name": "AR/VR Panel",
+        "room": "Room 210",
         "details": "Owing to the rise of technologies such as VR and AR, which blur the line between the physical and the digital, we’re at the cusp of a technological change that focuses on immersion. These technologies are changing how we perceive reality as well as revolutionizing the way we spend our waking time. How might AR/VR affect interpersonal relationships? What are the potentials AR/VR as a tool for empathy and cognitive enhancement? These are the types of questions we will be exploring with VR/AR experts and academics as we discuss both the promise and perils of these immersive technologies."
       }
     ]
@@ -48,14 +60,16 @@ const agenda = [
     "start": "2:15 PM",
     "end": "3:00 PM",
     "items": [ 
-      "Deep Dive Sessions (2 in concurrent)",
+      "Deep Dive Sessions (2 concurrently)",
       {
         "name": "Blockchain: Anatomy of a hot wallet",
+        "room": "Room 202",
         "speaker": "Matthew Werner",
         "showDetail": false
       },
       {
         "name": "Bio-sensing and Sexuality",
+        "room": "Room 210",
         "speaker": "James Wang",
         "showDetail": false
       }
@@ -65,16 +79,19 @@ const agenda = [
   {
     "start": "3:00 PM",
     "end": "3:15 PM",
-    "items": [ "Short Break" ]
+    "items": [ 
+      "Short Break"
+    ]
   },
   {
     "start": "3:15 PM",
     "end": "4:00 PM",
     "items": [
-      "Academic Talks (2 in concurrent)",
+      "Academic Talks (2 concurrently)",
       {
         "name": "What Can Lead us to Next Generation Breakthroughs in Learning?",
         "speaker": "Marti Hearst",
+        "room": "Room 202",
         "speakerImage": "/images/speakers-hearst.jpg",
         "details": `
           ABSTRACT: 
@@ -96,6 +113,7 @@ const agenda = [
       {
         "name": "Accounting for Social Class in HCI",
         "speaker": "Morgan Ames",
+        "room": "Room 210",
         "speakerImage": "/images/speakers-ames.jpg",
         "details": `ABSTRACT: 
           <p>
@@ -109,12 +127,17 @@ const agenda = [
   {
     "start": "4:00 PM",
     "end": "4:45 PM",
-    "items": [ "End Keynote" ]
+    "items": [ 
+      {
+        "name": "End Keynote",
+        "room": "Room 202"
+      }
+    ]
   },
   {
     "start": "4:45 PM",
     "end": "5:30 PM",
-    "items": [ "EXPO + Happy Hour" ]
+    "items": [ "EXPO (Room 210) + Happy Hour" ]
   }
 ]
 

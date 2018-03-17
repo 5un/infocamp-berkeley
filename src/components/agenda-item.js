@@ -33,11 +33,12 @@ class AgendaItem extends React.Component {
         <div dangerouslySetInnerHTML={{ __html: item }} ></div>
       }
       {isObject && 
-        <div onClick={this.handleOnClick.bind(this)} style={{ cursor: 'pointer' }}>
+        <div onClick={this.handleOnClick.bind(this)} style={{ cursor: 'pointer', marginBottom: '5px' }}>
           {item.speaker &&
             <div className="hover-link"><b>{item.speaker}</b></div>
           }
-          {item.name}
+          <div>{item.name}</div>
+          <div style={{ opacity: 0.5 }}>{item.room}</div>
         </div>
       }
       <Modal isActive={showModal} >
