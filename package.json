@@ -17,6 +17,7 @@
     "queue": "^4.4.2",
     "react-burger-menu": "^2.2.3",
     "react-collapsible": "^2.0.4",
+    "react-iframe": "^1.1.0",
     "react-load-script": "0.0.6",
     "react-responsive-grid": "^0.3.4",
     "react-scrollable-anchor": "^0.5.0",
