@@ -21,9 +21,8 @@ class IndexPage extends React.Component {
         }} isPaddingless={true} >
         <StickyHeader />
         <Container hasTextAlign="center" style={{ padding: '100px 20px' }}>
+          <h4 style={{ textAlign: 'center' }} >Voting is not yet opened. Stay tuned.</h4>
           {/*
-            <h4 style={{ textAlign: 'center' }} >Voting is not yet opened. Stay tuned.</h4>
-          */}
           <Columns>
             <Column isSize={10} isOffset={1}>
               <div style={{ textAlign: 'center' }}>
@@ -43,7 +42,7 @@ class IndexPage extends React.Component {
                 allowFullScreen/>
             </Column>
           </Columns>
-          
+          */}
         </Container>
       </Section>
     </div>)

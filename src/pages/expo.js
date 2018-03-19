@@ -40,9 +40,14 @@ class IndexPage extends React.Component {
                   We welcome you to submit projects for the EXPO showcase at this year’s InfoCamp! 
                   We invite student-led projects that are based on our theme of Augmented Society.  Examples of project areas are Virtual Reality, Augmented Reality, Internet of Things, Blockchain and cryptocurrencies, Biosensing, Bot technology, Machine Learning and more.
                 </Content>
+                <div>
+                  EXPO Submission is now closed.
+                </div>
+                {/*
                 <a href={links.expo} style={{ textDecoration: 'none' }}>
                   <Button isColor="warning" type="submit" value="submit" style={{ width: '300px' }}>Submit Project</Button>
                 </a>
+                */}
               </Column>
             </Columns>
           </Container>

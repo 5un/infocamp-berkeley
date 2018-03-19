@@ -52,15 +52,16 @@ class IndexPage extends React.Component {
           <Container hasTextAlign="centered" style={{ marginTop: '100px' }}>
             <Columns>
               <Column isSize={8} isOffset={2} style={{ padding: '20px' }}>
-                <h2 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.5)' }}>Augmenting Society</h2>
-                <h3 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>March 17th, 2018 at South Hall, Berkeley</h3>
+                <h2 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.5)' }}>Thank You</h2>
+                {/*
+                <h3 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)' }}>Theme: Augmenting Society, Date: March 17th, 2018 at South Hall, Berkeley</h3>
+                */}
                 <p>
-                  Join us for a day-long conference of keynotes, panel discussions, unconference, academic speakers, expert deep dive sessions, project presentations through an inter-college EXPO and more.
-                  Tickets are on sale now!
+                  Thanks for joining us for a day-long conference of keynotes, panel discussions, unconference, academic speakers, expert deep dive sessions, project presentations through an inter-college EXPO.
+                  InfoCamp will come back next year.
                 </p>
               </Column>
             </Columns>
-            {/*
             <h4 style={{ textShadow: '0px 2px 10px rgba(43,255,255,0.2)', marginBottom: '10px' }}>Sign up for updates</h4>
             <form action="https://infocamp.us2.list-manage.com/subscribe/post?u=536179e4b2849e96e841012a4&amp;id=36f8a21dd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
               <div id="mc_embed_signup_scroll">
@@ -73,11 +74,12 @@ class IndexPage extends React.Component {
               </div>
               </div>
             </form>
-            */}
             
+            {/*
             <a href={links.tickets} style={{ textDecoration: 'none' }}>
               <Button isColor="warning" isSize="large">Get Tickets</Button>
             </a>
+            */}
             <br />
             <br />
           </Container>

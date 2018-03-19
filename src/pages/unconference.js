@@ -51,12 +51,17 @@ class IndexPage extends React.Component {
                   <p>Unconferences like InfoCamp feature a community-driven format, so we ask attendees to create, pitch and lead their own sessions. To host a session, you simply choose the topic and the format, pitch your idea to the group. The schedule gets created on the fly, and you get to vote on sessions – and if yours is chosen, you pick a time slot and present.
                   </p>
                   <p>
-                    Submitted session topics will be voted upon on the day of the conference. Further the discussion on the future of our augmented society by contributing an session topic today!
+                    Submitted session topics will be voted upon on the day of the conference.
                   </p>
                 </Content>
+                {/*
                 <a href={links.unconference} style={{ textDecoration: 'none' }}>
                   <Button isColor="warning" style={{ width: '300px' }}>Suggest a Session</Button>
                 </a>
+                */}
+                <div>
+                  Unconference submission is now closed.
+                </div>
               </Column>
             </Columns>
           </Container>
