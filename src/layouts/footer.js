@@ -11,7 +11,7 @@ const anchorStyle = {
 }
 
 const SiteFooter = () => (
-  <Footer id="footer">
+  <Footer id="footer" style={{ background: '#003262'}}>
     <Container hasTextAlign="centered">
       <Content>
         More questions? <a href={`mailto:${links.contactEmail}`}>Contact us at {links.contactEmail}</a>

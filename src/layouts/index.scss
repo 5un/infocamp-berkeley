@@ -1,14 +1,23 @@
 $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
-@import "./burger-menu.scss";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700|Rubik:300,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.main{
+  background-image: url(/images/homepage-image.png);
+  background-position: 100% 25.4%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-origin: initial;
+  background-clip: initial;
+}
 
 html {
-  font-family: 'Poppins', sans-serif;
-  font-size: 112.5%/1.45em;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  background-color: rgb(0, 50, 98);
 }
 * {
   box-sizing: inherit;
@@ -20,8 +29,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
   word-wrap: break-word;
@@ -30,6 +39,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background: #003262;
 }
 img {
   max-width: 100%;
@@ -451,7 +461,7 @@ pre tt:after {
 }
 
 .hover-link {
-  cursor: pointer,
+  cursor: pointer;
   &:hover {
     text-shadow: 0px 0px 2px #00ffff;
   }
