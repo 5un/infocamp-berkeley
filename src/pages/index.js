@@ -12,6 +12,7 @@ import SpeakerList from '../components/speaker-list'
 import Agenda from '../components/agenda'
 import FAQS from '../components/faqs'
 import '..//index.scss'
+import logo from '../images/infocamp-logo-montserrat.svg'
 
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
@@ -47,7 +48,7 @@ class IndexPage extends React.Component {
             flex: '1', 
             marginTop: '119px',
              }}>
-            <img src={"images/infocamp-logo-montserrat.svg"}/>
+            <img src={logo}/>
             <div className='details-container'>
             <div className='save-the-date'
             style={{ 

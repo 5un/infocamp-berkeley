@@ -9,7 +9,6 @@ import { Footer, Columns, Column, Content, Container } from 'bloomer';
 import './index.scss'
 import Header from './header'
 import SiteFooter from './footer'
-import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>

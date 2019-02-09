@@ -2,10 +2,11 @@ $variable-columns: false;
 @import "~bulma/bulma";
 @import "./reset.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import '/images/homepage-image.png';
 
 
 .main{
-  background-image: url(/images/homepage-image.png);
+  background-image: url(./homepage-image.png);
   background-position: 100% 25.4%;
   background-size: auto;
   background-repeat: no-repeat;
