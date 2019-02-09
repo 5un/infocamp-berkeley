@@ -11,6 +11,7 @@ import SponsorList from '../components/sponsor-list'
 import SpeakerList from '../components/speaker-list'
 import Agenda from '../components/agenda'
 import FAQS from '../components/faqs'
+import '..//index.scss'
 
 import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';

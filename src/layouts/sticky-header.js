@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import { Sticky } from 'react-sticky'
 import { Container, Columns, Column, Title } from 'bloomer'
-import { Breakpoint } from 'react-responsive-grid'
+// import { Breakpoint } from 'react-responsive-grid'
 import DropdownMenu from '../components/dropdown-menu'
 
 export default class StickyHeader extends React.Component {
@@ -51,7 +51,7 @@ export default class StickyHeader extends React.Component {
                     <a href="/">
                       <img src="/images/infocamp-2018-logo.png" style={{ height: logoHeight + 'px', transition: 'height 0.5s', marginBottom: '0', maxHeight: '20vw' }} /><br />
                     </a>
-                    <Breakpoint minWidth={720} widthMethod="componentWidth">
+                    {/* <Breakpoint minWidth={720} widthMethod="componentWidth"> */}
                       <div style={{ display: 'inline-block', width: '16%' }}>
                         <DropdownMenu title="About" children={aboutSubMenus}>
                         </DropdownMenu>
@@ -81,7 +81,7 @@ export default class StickyHeader extends React.Component {
                           <Title tag="h5" isSize={6} style={navMenuStyle}>Unconference</Title>
                         </a>
                       </div>
-                    </Breakpoint>
+                    {/* </Breakpoint> */}
                   </Container>
                   
                 </div>

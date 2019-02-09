@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Iframe from 'react-iframe'
 import Link, { withPrefix } from 'gatsby-link'
-import StickyHeader from '../layouts/sticky-header'
+// import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
 
 import links from '../content/links.json'
@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
           color: 'white',
           minHeight: '100vh'
         }} isPaddingless={true} >
-        <StickyHeader />
+        {/* <StickyHeader /> */}
         <Container hasTextAlign="center" style={{ padding: '100px 20px' }}>
           <h4 style={{ textAlign: 'center' }} >Voting is not yet opened. Stay tuned.</h4>
           {/*

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 import links from '../content/links.json'
-import StickyHeader from '../layouts/sticky-header'
+// import StickyHeader from '../layouts/sticky-header'
 import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
 import Helmet from 'react-helmet'
 
@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
           color: 'white',
           minHeight: '100vh'
         }} isPaddingless={true} >
-          <StickyHeader />
+          {/* <StickyHeader /> */}
           <Container hasTextAlign="centered" style={{ padding: '50px 20px' }}>
             <Columns>
               <Column isSize={8} isOffset={2}>
