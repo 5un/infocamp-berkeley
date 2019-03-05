@@ -82,7 +82,7 @@ class IndexPage extends React.Component {
                 }}>
                 <Button style={{ 
                 textDecoration: 'none'
-                }} isColor='info' href="tinyurl.com/infocamp2019tickets">Get Your Ticket.</Button>
+                }} isColor='info' href="https://tinyurl.com/infocamp2019tickets">Get Your Ticket.</Button>
                 </Column>
             </Column>
             </div>
