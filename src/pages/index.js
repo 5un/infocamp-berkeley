@@ -77,6 +77,13 @@ class IndexPage extends React.Component {
                 lineHeight: '28px',
                 fontSize: '16px',
                 }}>InfoCamp, in its 9th year, is the premier student-run conference for the information community. Held on the UC Berkeley campus at the School of Information, InfoCamp is a day-long event that aims to educate, inform, and inspire new ways of thinking among the information community.</div>
+                <Column style={{
+                  textAlign: 'center'
+                }}>
+                <Button style={{ 
+                textDecoration: 'none'
+                }} isColor='info' href="tinyurl.com/infocamp2019tickets">Get Your Ticket.</Button>
+                </Column>
             </Column>
             </div>
 
