@@ -1,21 +1,8 @@
 import React from 'react'
-import Link, { withPrefix } from 'gatsby-link'
-
-import sponsorsData from '../content/sponsors.json'
-import speakerData from '../content/speakers.js'
-import faqsData from '../content/faqs.json'
-import agendaData from '../content/agenda.js'
-import links from '../content/links.json'
-
-import SponsorList from '../components/sponsor-list'
-import SpeakerList from '../components/speaker-list'
-import Agenda from '../components/agenda'
-import FAQS from '../components/faqs'
 import '..//index.scss'
 import logo from '../images/infocamp-logo-montserrat.svg'
 
-import StickyHeader from '../layouts/sticky-header'
-import { Container, Section, Columns, Column, Control, Image, Content, Button, Input, Title } from 'bloomer';
+import { Section, Columns, Column, Button } from 'bloomer';
 
 const linkedAnchorStyle = { position: 'absolute', marginTop: '-140px' }
 
@@ -330,7 +317,7 @@ class IndexPage extends React.Component {
                   marginTop: '30px',
                 }} isCentered>
                 <Column>
-                <h3>Contact: <a href="mailto:imsa@ischool.berkeley.edu">imsa@ischool.berkeley.edu</a></h3>
+                <h3>Contact: <a style={{textDecoration: 'none'}} href="mailto:imsa@ischool.berkeley.edu">imsa@ischool.berkeley.edu</a></h3>
                 </Column>
                 </Columns>
                 <Column>
@@ -376,25 +363,6 @@ class IndexPage extends React.Component {
                 </Column>
               </Columns>
               </div>
-                                  
-            {/* <form action="https://infocamp.us2.list-manage.com/subscribe/post?u=536179e4b2849e96e841012a4&amp;id=36f8a21dd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
-              <div id="mc_embed_signup_scroll">
-              <Input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required style={{ marginBottom: '10px', width: '300px' }}/>
-              <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
-                <Input type="text" name="b_536179e4b2849e96e841012a4_36f8a21dd2" tabIndex="-1" value=""/>
-              </div>
-              <div className="clear">
-                <Button isColor="warning" type="submit" value="submit" style={{ width: '300px' }}>Subscribe</Button>
-              </div>
-              </div>
-            </form> */}
-
-
-            {/*
-            <a href={links.tickets} style={{ textDecoration: 'none' }}>
-              <Button isColor="warning" isSize="large">Get Tickets</Button>
-            </a>
-            */}
           </Column>
 
         </Section>
