@@ -16,7 +16,7 @@ export default function HTML(props) {
         <meta name= 'og:url' content= 'https://berkeley-infocamp.org'/>
         <meta name= 'og:type' content= 'website' />
         <meta name= 'og:title' content= 'INFOCAMP Berkeley 2019' />
-        <meta name= 'og:description' content= 'InfoCamp Berkeley 2019 will be held on March 19, 2019 at South Hall, University of California, Berkeley' />
+        <meta name= 'og:description' content= 'InfoCamp Berkeley 2019 will be held on March 16, 2019 at South Hall, University of California, Berkeley' />
         <link rel= 'shortcut icon' type= 'image/png' href= '/images/favicon.ico'/>
         <title>INFOCAMP Berkeley 2019</title>
         {props.headComponents}
