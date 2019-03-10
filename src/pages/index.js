@@ -1,6 +1,7 @@
 import React from 'react'
 import '..//index.scss'
 import logo from '../images/infocamp-logo-montserrat.svg'
+import whatif from '../images/whatif.svg'
 
 import { Section, Columns, Column, Button } from 'bloomer';
 
@@ -41,17 +42,18 @@ class IndexPage extends React.Component {
               <div className='date'
               style={{ 
                 lineHeight: '125px',
-                fontSize: '72px',
+                fontSize: '60px',
                 fontWeight: '900',
                 textTransform: 'uppercase',
                 color: '#ED203D'
                  }} >Mar 16, 2019</div>
             </div>
-            <Column isOffset={3} isSize={6} >
+            <img src={whatif}/>
+            <Column isOffset={2} isSize={8} >
               <div className='details'
               style={{ 
                 textAlign:'justify',
-                marginTop: '20px',
+                marginTop: '10px',
                 lineHeight: '28px',
                 fontSize: '16px',
                 }}>InfoCamp, in its 9th year, is the premier student-run conference for the information community. Held on the UC Berkeley campus at the School of Information, InfoCamp is a day-long event that aims to educate, inform, and inspire new ways of thinking among the information community.</div>
@@ -75,67 +77,94 @@ class IndexPage extends React.Component {
                 <div
                   style={{ 
                     lineHeight: '125px',
-                    fontSize: '72px',
+                    fontSize: '60px',
                     fontWeight: '900',
                     textTransform: 'uppercase',
                     color: '#ED203D'
                  }} >Agenda</div>
-                 <Column isOffset={4} isSize={4}
+                 <Column isOffset={3} isSize={8}
                  style={{
                    textAlign: 'start'
                  }}
                  >
                   <Columns isCentered>
-                    <Column isSize="1/3">9:10 - 9:20</Column>
-                    <Column isSize="2/3">Intro</Column>
+                    <Column isSize={3}>9:10 - 9:20</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Intro</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">9:20 - 9:45</Column>
-                    <Column isSize="2/3">Keynote</Column>
+                    <Column isSize={3}>9:20 - 9:45</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Keynote</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">9:45 - 11:00</Column>
-                    <Column isSize="2/3">Panel - Understanding Users</Column>
+                    <Column isSize={3}>9:45 - 11:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Panel: Understanding Users</div>
+                  What if we could have better frameworks to understand people’s interaction with technology? By talking with researchers, designers and product owners we’ll explore current approaches and emerging trends on how to better understand end users.
+                    </Column>
+                  </Columns>
+                  
+                  <Columns isCentered>
+                    <Column isSize={3}>11:00 - 11:15</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Break</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">11:00 - 11:15</Column>
-                    <Column isSize="2/3">Break</Column>
+                    <Column isSize={3}>11:15 - 12:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Unconference</div>
+                    is a loosely structured conference session emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured panel/talk. Interested in hosting a 10-minute session during the unconference?
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRLsYaubLmGsoHubKzuBmOwStqOs0G7Llur7Gs_W16EKMKDw/viewform">Suggest a topic!</a>
+                    </Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">11:15 - 12:00</Column>
-                    <Column isSize="2/3">Unconference</Column>
+                    <Column isSize={3}>12:00 - 1:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Panel: Raising and Resolving Conflict in Online Communities</div>
+                    What if we could have more effective social engineering that understands how people tend to act, how we want those tendencies to manifest online, and how to design rules and affordances to 'tilt' human behavior in the directions somebody wants? In this panel we'll explore different perspectives on the escalation and de-escalation of conflict, such as centralized vs. decentralized processes, from various kinds of online communities. 
+                    </Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">12:00 - 1:00</Column>
-                    <Column isSize="2/3">Panel - Online Communities</Column>
+                    <Column isSize={3}>1:00 - 2:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Lunch</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">1:00 - 2:00</Column>
-                    <Column isSize="2/3">Lunch</Column>
+                    <Column isSize={3}>2:00 - 3:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">In-Depth Talk: Tangible Interfaces</div>
+                    What if our interfaces transcended our screens? What if we could leverage the full potential of our senses to interact with technology? We’ll explore how new perspectives in interface design are redefining our relationship with information through embodied cognition, ubiquitous computing, and the art of research by design.
+                    </Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">2:00 - 3:00</Column>
-                    <Column isSize="2/3">In-Depth Talk: HCI</Column>
+                    <Column isSize={3}>3:00 - 4:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">In-Depth Talk: The Current Bounds of Data-Driven Decisions</div>
+                    What if our current limitations in computing power can be overcome by better algorithms or models? What if we find ways to capture more data without compromising privacy? We’ll venture into these questions with practitioners that are stretching, to its limits, the current capabilities of our data-driven machine learning paradigm; explore their approaches and evaluate opportunities.
+                    </Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">3:00 - 4:00</Column>
-                    <Column isSize="2/3">In-Depth Talk: Data</Column>
+                    <Column isSize={3}>4:00 - 5:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">In-Depth Talk: Ethical Considerations for Scaling Companies</div>
+                    What if the companies, governments and other organizations that transform information in our society reach a consensus around fairness, privacy and transparency? We’ll explore how the ethics of technological product development are being defined by the large organizations that shape our everyday lives.
+                    </Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">4:00 - 5:00</Column>
-                    <Column isSize="2/3">In-Depth Talk: Ethics/Policy</Column>
+                    <Column isSize={3}>2:00 - 5:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">The Idea Room (With Refreshments)</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">2:00 - 5:00</Column>
-                    <Column isSize="2/3">The Idea Room (With Refreshments)</Column>
+                    <Column isSize={3}>5:00 - 5:30</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Closing Remarks</div></Column>
                   </Columns>
                   <Columns isCentered>
-                    <Column isSize="1/3">5:00 - 5:30</Column>
-                    <Column isSize="2/3">Closing Remarks</Column>
-                  </Columns>
-                  <Columns isCentered>
-                    <Column isSize="1/3">5:30 - 6:00</Column>
-                    <Column isSize="2/3">Mixer</Column>
+                    <Column isSize={3}>5:30 - 6:00</Column>
+                    <Column isSize={9}>
+                    <div className="sub">Mixer</div></Column>
                   </Columns>
                  </Column>
                 </Column>
@@ -151,91 +180,91 @@ class IndexPage extends React.Component {
                 <div
                   style={{ 
                     lineHeight: '125px',
-                    fontSize: '72px',
+                    fontSize: '60px',
                     fontWeight: '900',
                     textTransform: 'uppercase',
                     color: '#ED203D'
                  }} >Speakers</div>
                  <Column>
-                  <h2>Keynote</h2>
+                  <h2 className="sub">Keynote</h2>
                   <img src="../images/speakers/Krys-Blackwood-1.jpg"/>
-                  <h3>Krys Blackwood</h3>
-                  <p>Senior Lead UX Designer<br/> at JPL</p>
+                  <h3 className="name">Krys Blackwood</h3>
+                  <p>Senior Lead UX Designer at NASA JPL</p>
                  </Column>
                  <Column>
-                  <h2>Panel - Understanding Users</h2>
+                  <h2 className="sub">Panel: Understanding Users - Techniques and Considerations</h2>
                   <Columns isCentered>
                   <Column isSize='1/4'>
                     <img src="../images/speakers/Emon-Motamedi-1.jpg"/>
-                    <h3>Emon Motamedi</h3>
-                    <p>Senior Product Manager<br/> at Reddit</p>
+                    <h3 className="name">Emon Motamedi</h3>
+                    <p>Senior Product Manager at Reddit</p>
                   </Column>
                   <Column isSize='1/4'>
                     <img src="../images/speakers/Jessica-Strick-1.jpg"/>
-                    <h3>Jessica Strick</h3>
-                    <p>Lead Exhibit Developer<br/> at The Exploratorium</p>
+                    <h3 className="name">Jessica Strick</h3>
+                    <p>Lead Exhibit Developer at The Exploratorium</p>
                   </Column>
                   <Column isSize='1/4'>
                     <img src="../images/speakers/Eric-Schlakman-1.jpg"/>
-                    <h3>Eric Schlakman</h3>
-                    <p>Product & Marketing <br/> Content at Stripe</p>
+                    <h3 className="name">Eric Schlakman</h3>
+                    <p>Product & Marketing Content at Stripe</p>
                   </Column>
                   <Column isSize='1/4'>
                     <img src="../images/speakers/Krys-Blackwood-1.jpg"/>
-                    <h3>Krys Blackwood</h3>
-                    <p>Senior Lead UX Designer<br/> at JPL</p>
+                    <h3 className="name">Krys Blackwood</h3>
+                    <p>Senior Lead UX Designer at NASA JPL</p>
                   </Column>
                  </Columns>
                  </Column>
                  <Column>
-                  <h2>Panel - Online Communities</h2>
+                  <h2 className="sub">Panel: Raising and Resolving Conflict in Online Communities</h2>
                   <Columns isCentered>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Brandon-Harris-1.jpg"/>
-                    <h3>Brandon Harris</h3>
-                    <p>Leade UI Engineer at JOINGO; <br/> Instructor at General Assembly</p>
+                    <h3 className="name">Brandon Harris</h3>
+                    <p>Programmer at Wikipedia</p>
                   </Column>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Sonya-Mann-1.jpg"/>
-                    <h3>Sonya Mann</h3>
-                    <p>Communications Manager<br/> at ZCash Foundation</p>
+                    <h3 className="name">Sonya Mann</h3>
+                    <p>Communications Manager at ZCash Foundation</p>
                   </Column>
                   </Columns>
                  </Column>
                  <Column>
-                  <h2>In-Depth Talk: HCI</h2>
+                  <h2 className="sub">In-Depth Talk: Tangible Interfaces</h2>
                   <Columns isCentered>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Tico-Ballagas-1.jpg"/>
-                    <h3>Dr. Tico Ballagas</h3>
-                    <p>Senior Manager of the Immersive Experience Lab <br/> at HP Labs</p>
+                    <h3 className="name">Dr. Tico Ballagas</h3>
+                    <p>Senior Manager of the Immersive Experience Lab at HP Labs</p>
                   </Column>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Noura-Howell-1.jpg"/>
-                    <h3>Noura Howell</h3>
-                    <p>PhD Candidate <br/> at the UC Berkeley School of Information</p>
+                    <h3 className="name">Noura Howell</h3>
+                    <p>PhD Candidate  at the UC Berkeley School of Information</p>
                   </Column>
                   </Columns>
                  </Column>
                  <Column>
-                  <h2>In-Depth Talk: Data</h2>
+                  <h2 className="sub">In-Depth Talk: The Current Bounds of Data-Driven Decisions</h2>
                   <Columns isCentered>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Michelle-Carney-1.jpg"/>
-                    <h3>Michelle Carney</h3>
-                    <p>ML + UX at Amazon Music; <br/> Lecturer at Stanford d.school</p>
+                    <h3 className="name">Michelle Carney</h3>
+                    <p>ML + UX at Amazon Music; Lecturer at Stanford d.school</p>
                   </Column>
                   <Column isSize='1/2'>
                     <img src="../images/speakers/Anand-Rajagopal-1.jpg"/>
-                    <h3>Anand Rajagopal</h3>
-                    <p>Data Scientist <br/> at Autodesk</p>
+                    <h3 className="name">Anand Rajagopal</h3>
+                    <p>Data Scientist at Autodesk</p>
                   </Column>
                   </Columns>
                  </Column>
                  <Column>
-                  <h2>In-Depth Talk: Ethics/Policy</h2>
+                  <h2 className="sub">In-Depth Talk: Ethical Considerations for Scaling Companies</h2>
                   <img src="../images/speakers/Chirantan-Chatterjee-1.jpg"/>
-                    <h3>Chirantan Chatterjee</h3>
+                    <h3 className="name">Chirantan Chatterjee</h3>
                     <p>Fellow at Hoover Institution, Stanford</p>
                  </Column>
                 </Column>
@@ -248,7 +277,7 @@ class IndexPage extends React.Component {
               <div
                 style={{ 
                   lineHeight: '125px',
-                  fontSize: '72px',
+                  fontSize: '60px',
                   fontWeight: '900',
                   textTransform: 'uppercase',
                   color: '#ED203D'
@@ -276,7 +305,7 @@ class IndexPage extends React.Component {
               <div
                 style={{ 
                   lineHeight: '125px',
-                  fontSize: '72px',
+                  fontSize: '60px',
                   fontWeight: '900',
                   textTransform: 'uppercase',
                   color: '#ED203D'
@@ -346,17 +375,10 @@ class IndexPage extends React.Component {
                 </Column>
               </Column>
             </div>
-              <div className="foot" style={{marginTop: '76px', paddingBottom: '114px'}}>
-              <Columns>
+              <div className="foot" style={{paddingBottom: '114px'}}>
+              <Columns isCentered>
                 <Column isSize='6'>
-                  <div className='email-location' style={{ float: 'left', textAlign: 'left'}}>
-                    <div className='email'>Email: imsa@ischool.berkeley.edu</div>
-                    <div className='location'>Location: South Hall Berkeley, CA 94704</div>
-                  </div>
-                </Column>
-                
-                <Column isSize='6'>
-                  <div className='copyright-stuff' style={{ float: 'right', textAlign: 'right'}}>
+                  <div className='copyright-stuff'>
                     <div className='copyright'>© 2019 by Information Management Student Association (IMSA)</div>
                     <div className='stuff'>All Rights Reserved</div>
                   </div>
