@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
                     <Column isSize={9}>
                     <div className="sub">Unconference</div>
                     is a loosely structured conference session emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured panel/talk. Interested in hosting a 10-minute session during the unconference?
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRLsYaubLmGsoHubKzuBmOwStqOs0G7Llur7Gs_W16EKMKDw/viewform">Suggest a topic!</a>
+                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRLsYaubLmGsoHubKzuBmOwStqOs0G7Llur7Gs_W16EKMKDw/viewform">Suggest a topic!</a>
                     </Column>
                   </Columns>
                   <Columns isCentered>
