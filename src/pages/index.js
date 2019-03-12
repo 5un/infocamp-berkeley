@@ -255,15 +255,20 @@ class IndexPage extends React.Component {
                  <Column>
                   <h2 className="sub">In-Depth Talk: The Current Bounds of Data-Driven Decisions</h2>
                   <Columns isCentered>
-                  <Column isSize='1/2'>
+                  <Column isSize='1/3'>
                     <img src="../images/speakers/Michelle-Carney-1.jpg"/>
                     <h3 className="name">Michelle Carney</h3>
                     <p>ML + UX at Amazon Music; Lecturer at Stanford d.school</p>
                   </Column>
-                  <Column isSize='1/2'>
+                  <Column isSize='1/3'>
                     <img src="../images/speakers/Anand-Rajagopal-1.jpg"/>
                     <h3 className="name">Anand Rajagopal</h3>
                     <p>Data Scientist at Autodesk</p>
+                  </Column>
+                  <Column isSize='1/3'>
+                    <img src="../images/speakers/Luca-Cosentino-1.jpg"/>
+                    <h3 className="name">Luca Cosentino</h3>
+                    <p>Product and Growth at Oasis Labs</p>
                   </Column>
                   </Columns>
                  </Column>
