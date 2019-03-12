@@ -42,7 +42,7 @@ class IndexPage extends React.Component {
               <div className='date'
               style={{ 
                 lineHeight: '125px',
-                fontSize: '60px',
+                fontSize: '2.75em',
                 fontWeight: '900',
                 textTransform: 'uppercase',
                 color: '#ED203D'
@@ -56,7 +56,8 @@ class IndexPage extends React.Component {
                 marginTop: '10px',
                 lineHeight: '28px',
                 fontSize: '16px',
-                }}>InfoCamp, in its 9th year, is the premier student-run conference for the information community. Held on the UC Berkeley campus at the School of Information, InfoCamp is a day-long event that aims to educate, inform, and inspire new ways of thinking among the information community.</div>
+                }}>InfoCamp, in its 10th year, is a premier student-run event for the information community. Held on the UC Berkeley campus at the School of Information, InfoCamp is a day-long event that aims to educate, inform, and inspire new ways of thinking about information through panels, talks, and innovation challenges. The event is targeted to anyone interested in information, and typically draws professionals, students, and entrepreneurs who work in roles in data science, UX design, product management, software engineering, and policy.
+                </div>
                 <Column style={{
                   textAlign: 'center'
                 }}>
@@ -77,7 +78,7 @@ class IndexPage extends React.Component {
                 <div
                   style={{ 
                     lineHeight: '125px',
-                    fontSize: '60px',
+                    fontSize: '2.75em',
                     fontWeight: '900',
                     textTransform: 'uppercase',
                     color: '#ED203D'
@@ -180,7 +181,7 @@ class IndexPage extends React.Component {
                 <div
                   style={{ 
                     lineHeight: '125px',
-                    fontSize: '60px',
+                    fontSize: '2.75em',
                     fontWeight: '900',
                     textTransform: 'uppercase',
                     color: '#ED203D'
@@ -219,12 +220,17 @@ class IndexPage extends React.Component {
                  <Column>
                   <h2 className="sub">Panel: Raising and Resolving Conflict in Online Communities</h2>
                   <Columns isCentered>
-                  <Column isSize='1/2'>
+                  <Column isSize='1/3'>
+                    <img src="../images/speakers/Carrie-Melissa-Jones-1.jpg"/>
+                    <h3 className="name">Carrie Melissa Jones</h3>
+                    <p>Founder and Chief Strategist at Gather Community Consulting</p>
+                  </Column>
+                  <Column isSize='1/3'>
                     <img src="../images/speakers/Brandon-Harris-1.jpg"/>
                     <h3 className="name">Brandon Harris</h3>
                     <p>Programmer at Wikipedia</p>
                   </Column>
-                  <Column isSize='1/2'>
+                  <Column isSize='1/3'>
                     <img src="../images/speakers/Sonya-Mann-1.jpg"/>
                     <h3 className="name">Sonya Mann</h3>
                     <p>Communications Manager at ZCash Foundation</p>
@@ -277,7 +283,7 @@ class IndexPage extends React.Component {
               <div
                 style={{ 
                   lineHeight: '125px',
-                  fontSize: '60px',
+                  fontSize: '2.75em',
                   fontWeight: '900',
                   textTransform: 'uppercase',
                   color: '#ED203D'
@@ -305,7 +311,7 @@ class IndexPage extends React.Component {
               <div
                 style={{ 
                   lineHeight: '125px',
-                  fontSize: '60px',
+                  fontSize: '2.75em',
                   fontWeight: '900',
                   textTransform: 'uppercase',
                   color: '#ED203D'
